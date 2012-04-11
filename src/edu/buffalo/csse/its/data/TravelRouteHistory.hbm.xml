@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 2, 2011 5:08:20 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="edu.buffalo.csse.its.data.TravelRouteHistory" table="TRAVEL_ROUTE_HISTORY">
+        <id name="seq_no" type="long">
+            <generator class="native" />
+        </id>
+        <property name="seq_no" type="long">
+            <column name="SEQ_NO" />
+        </property>
+        <property name="routeName" type="java.lang.String">
+            <column name="ROUTE_NAME" />
+        </property>
+        <property name="travelTime" type="double">
+            <column name="TRAVEL_TIME" />
+        </property>
+        <property name="operatorMode" type="java.lang.String">
+            <column name="OPERATOR_MODE" />
+        </property>
+        <property name="updateTime" type="long">
+            <column name="UPDATE_TIME" />
+        </property>
+        <property name="lastModifiedTime" type="java.sql.Timestamp">
+            <column name="LASTMODIFIEDTIME" />
+        </property>
+        <property name="lastUser" type="java.lang.String">
+            <column name="LASTUSER" />
+        </property>
+    </class>
+</hibernate-mapping>

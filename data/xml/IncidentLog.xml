@@ -1,0 +1,2046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Incident%20Log.xsd" generated="2010-11-12T09:30:52">
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-09T18:01:33</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20086</ID>
+<ID_x0020_Key>20177</ID_x0020_Key>
+<OperatorsResponse>Entered CR plan, sent fax, updated web.
+---------------------------------------------------------------------
+110910  1801  Thompson, John  Congestion clear.  Terminated CR plan, sent clearance fax, updated web.</OperatorsResponse>
+<Cross_x0020_Street>Eggert Road</Cross_x0020_Street>
+<Direction>Eastbound</Direction>
+<Route_x002F__x0020_Street>RTE - 33</Route_x002F__x0020_Street>
+<Municipality>Cheektowaga, Town of</Municipality>
+<Event_x0020_Description>Congestion.  Route 33 Eastbound beyond Eggert Road.</Event_x0020_Description>
+<Caller_x0020_Organization>NITTEC</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>847-2070</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Thompson, John</Caller_x0020_Name>
+<Gen_x0020_Event>Congestion</Gen_x0020_Event>
+<Operators>Thompson, John</Operators>
+<time>1899-12-30T17:02:52</time>
+<Date>2010-11-09T17:02:52</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T17:00:00</DetectionTime>
+<VerifyTime>1899-12-30T17:00:00</VerifyTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<RetNormTime>1899-12-30T18:01:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>1</CARS_x0020_active>
+<CARS_x0020_deactive>1</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-09T18:02:07</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>1</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>1</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>1</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>1</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>0</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<CREventID>4076</CREventID>
+<DetectMethod>Camera</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-09T18:03:53</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20087</ID>
+<ID_x0020_Key>20178</ID_x0020_Key>
+<OperatorsResponse>Help Team on scene.  Called Police.
+---------------------------------------------------------------------
+110910  1707  Thompson, John  Help Team on scene.
+---------------------------------------------------------------------
+110910  1709  Thompson, John  Police on scene.
+---------------------------------------------------------------------
+110910  1715  Thompson, John  Help Team complete at scene.
+---------------------------------------------------------------------
+110910  1745  Thompson, John  Scene clear.</OperatorsResponse>
+<Cross_x0020_Street>Exit 7  Route 5/Main Street</Cross_x0020_Street>
+<Direction>Eastbound</Direction>
+<Route_x002F__x0020_Street>I - 290</Route_x002F__x0020_Street>
+<Municipality>Amherst, Town of</Municipality>
+<Event_x0020_Description>Accident.  I-290 Eastbound before Exit 7.  Vehicles in right shoulder.</Event_x0020_Description>
+<Caller_x0020_Organization>NITTEC</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>847-2070</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Thompson, John</Caller_x0020_Name>
+<Gen_x0020_Event>Accidents</Gen_x0020_Event>
+<Operators>Thompson, John</Operators>
+<time>1899-12-30T17:04:38</time>
+<Date>2010-11-09T17:04:38</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T17:04:00</DetectionTime>
+<VerifyTime>1899-12-30T17:04:00</VerifyTime>
+<SceneArrTime>1899-12-30T17:07:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T17:04:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T17:45:00</ClearTime>
+<SceneDepartTime>1899-12-30T17:45:00</SceneDepartTime>
+<RetNormTime>1899-12-30T17:45:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-09T18:07:40</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>0</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>0</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>1</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<DetectMethod>Camera</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-09T18:09:28</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20088</ID>
+<ID_x0020_Key>20179</ID_x0020_Key>
+<OperatorsResponse>Called Cheektowaga Police and they will respond, the AAA van took off. Crossroads, fax and web, CARS and 511. Queue entered to Suffolk. PVMS activated, Rte 33e delays beyond grider
+---------------------------------------------------------------------
+110910  1738  Schwartz, Andrew  Police called for a tow.
+---------------------------------------------------------------------
+110910  1752  Thompson, John  Scene clear.  Terminated CR plan, sent fax, updated web.  Deactivated PMVS 9255 and 9293.</OperatorsResponse>
+<Cross_x0020_Street>Pine Ridge Road</Cross_x0020_Street>
+<Direction>Eastbound</Direction>
+<Route_x002F__x0020_Street>RTE - 33</Route_x002F__x0020_Street>
+<Municipality>Cheektowaga, Town of</Municipality>
+<Event_x0020_Description>VIA-Camera 18 - 2 cars in the left lane at Pine Ridge, AAA van there and left.</Event_x0020_Description>
+<Caller_x0020_Organization>N/A</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>N/A</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>N/A</Caller_x0020_Name>
+<Gen_x0020_Event>Accidents</Gen_x0020_Event>
+<Operators>Schwartz, Andrew</Operators>
+<time>1899-12-30T17:12:50</time>
+<Date>2010-11-09T17:12:50</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T17:13:00</DetectionTime>
+<VerifyTime>1899-12-30T17:13:00</VerifyTime>
+<SceneArrTime>1899-12-30T17:18:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T17:52:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T17:52:00</ClearTime>
+<SceneDepartTime>1899-12-30T17:52:00</SceneDepartTime>
+<RetNormTime>1899-12-30T17:52:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>1</PVMS>
+<PVMS_x0020_Act_x0020_Time>1899-12-30T17:19:00</PVMS_x0020_Act_x0020_Time>
+<PVMS_x0020_DeAct_x0020_Time>1899-12-30T17:51:00</PVMS_x0020_DeAct_x0020_Time>
+<HAR>0</HAR>
+<CARS_x0020_active>1</CARS_x0020_active>
+<CARS_x0020_deactive>1</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-09T18:27:29</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<DMSActiveList>9293, 9255</DMSActiveList>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>1</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>1</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>1</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>1</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>1</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>1</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<CREventID>4077</CREventID>
+<DetectMethod>Camera</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-09T17:59:06</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20089</ID>
+<ID_x0020_Key>20180</ID_x0020_Key>
+<OperatorsResponse>Help Team on scene.
+---------------------------------------------------------------------
+110910  1750  Thompson, John  Police on scene.
+---------------------------------------------------------------------
+110910  1758  Thompson, John  Scene clear.</OperatorsResponse>
+<Cross_x0020_Street>Route 5</Cross_x0020_Street>
+<Direction>Westbound</Direction>
+<Route_x002F__x0020_Street>I - 290</Route_x002F__x0020_Street>
+<Municipality>Amherst, Town of</Municipality>
+<Event_x0020_Description>Accident.  Route 5 Westbound at I-290.  Vehicle in lane.  Left lane closed.</Event_x0020_Description>
+<Caller_x0020_Organization>Help Team - 1st Transit</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>258-8758</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Help Team - 1st Transit</Caller_x0020_Name>
+<Gen_x0020_Event>Accidents</Gen_x0020_Event>
+<Operators>Thompson, John</Operators>
+<time>1899-12-30T17:42:21</time>
+<Date>2010-11-09T17:42:21</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T17:43:00</DetectionTime>
+<VerifyTime>1899-12-30T17:43:00</VerifyTime>
+<SceneArrTime>1899-12-30T17:43:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T17:58:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T17:58:00</ClearTime>
+<SceneDepartTime>1899-12-30T17:58:00</SceneDepartTime>
+<RetNormTime>1899-12-30T17:58:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-09T17:59:08</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>0</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>0</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>1</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<DetectMethod>Help Team</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-09T20:24:31</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20090</ID>
+<ID_x0020_Key>20181</ID_x0020_Key>
+<OperatorsResponse>Monitoring.
+---------------------------------------------------------------------
+110910  2024  Thompson, John  Niagara County Sheriff&apos;s report road is open.  Scene clear.</OperatorsResponse>
+<Cross_x0020_Street>route 31</Cross_x0020_Street>
+<Direction>Northbound/Southbound</Direction>
+<Route_x002F__x0020_Street>Town/Local Municipality</Route_x002F__x0020_Street>
+<Municipality>Royalton, Town of</Municipality>
+<Event_x0020_Description>Incident, Cottage Road  Northbound/Southbound is closed between Route 31 (Rochester Road) and Route 77 (Chestnut Ridge Road) due to a structure fire in the Town of Royalton..</Event_x0020_Description>
+<Caller_x0020_Organization>Niagara County - Sheriff</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>438-3393</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Niagara County - Sheriff</Caller_x0020_Name>
+<Gen_x0020_Event>Incident</Gen_x0020_Event>
+<Operators>Thompson, John</Operators>
+<time>1899-12-30T18:33:28</time>
+<Date>2010-11-09T18:33:28</Date>
+<Owning_x0020_Agency>Town/Local Municipality</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T18:30:00</DetectionTime>
+<VerifyTime>1899-12-30T18:30:00</VerifyTime>
+<SceneArrTime>1899-12-30T18:30:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T20:24:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T20:24:00</ClearTime>
+<SceneDepartTime>1899-12-30T20:24:00</SceneDepartTime>
+<RetNormTime>1899-12-30T20:24:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-09T20:24:32</ModTime>
+<FullRoadClosure>1</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>0</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>0</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>0</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<DetectMethod>Phone Call</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-10T00:05:44</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20091</ID>
+<ID_x0020_Key>20182</ID_x0020_Key>
+<OperatorsResponse>Confirmed via CCTV 35.  DV is blocking the left lane before Route 400.  Activated CR/web/DMS&quot;I-90 WEST LEFT LANE CLOSED BEFORE EXIT 54&quot;  Notified TSOC.
+---------------------------------------------------------------------
+111010  0002  Idzior, Dee  Via CCTV 35, Left lane is open. Terminated CR/web/DMS and sent clearance fax to NEG.</OperatorsResponse>
+<Cross_x0020_Street>Route 400</Cross_x0020_Street>
+<Direction>Westbound</Direction>
+<Route_x002F__x0020_Street>I - 90</Route_x002F__x0020_Street>
+<Municipality>West Seneca, Town of</Municipality>
+<Event_x0020_Description>Via scanner, DV I-90 West at Rte 400.</Event_x0020_Description>
+<Caller_x0020_Organization>N/A</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>N/A</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>N/A</Caller_x0020_Name>
+<Gen_x0020_Event>Incident</Gen_x0020_Event>
+<Operators>Idzior, Dee</Operators>
+<time>1899-12-30T23:46:25</time>
+<Date>2010-11-09T23:46:25</Date>
+<Owning_x0020_Agency>NYSTA</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T23:47:00</DetectionTime>
+<VerifyTime>1899-12-30T23:49:00</VerifyTime>
+<SceneArrTime>1899-12-30T23:49:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T00:04:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T00:04:00</ClearTime>
+<SceneDepartTime>1899-12-30T00:04:00</SceneDepartTime>
+<RetNormTime>1899-12-30T00:04:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>1</DMS>
+<DMS_x0020_Act_x0020_Time>1899-12-30T23:49:00</DMS_x0020_Act_x0020_Time>
+<DMS_x0020_DeAct_x0020_Time>1899-12-30T00:03:00</DMS_x0020_DeAct_x0020_Time>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>1</CARS_x0020_active>
+<CARS_x0020_deactive>1</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-10T00:05:49</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<DMSActiveList>DMS N 2.67 S I-190 Seneca
+DMS 420.6 W I-90 Rt 290X50A
+</DMSActiveList>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>1</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>1</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>1</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>1</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>1</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>1</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>1</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>1</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<CREventID>4091</CREventID>
+<DetectMethod>Scanner</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-10T09:28:07</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20092</ID>
+<ID_x0020_Key>20183</ID_x0020_Key>
+<OperatorsResponse>Amherst PD report that they have shut down Rte - 62 NB at Romney Drive. Entered into CR. Updated web. Sent fax/email. Called NYSDOT. Called media. Attempted to send NY Alert, and was unable to. Experienced some kind of error. Called STICC to report error, they will look into it. Notified EIC for this work zone.
+---------------------------------------------------------------------
+111010  0842  Sullivan, Jordan  Amherst PD report that they have extended the closure from Maple Road to I-290. Updated CR plan. Updated web. Sent fax/email. Updated media. Sent HICF.
+---------------------------------------------------------------------
+111010  0918  Sullivan, Jordan  Amherst PD report that they have opened Rte - 62 NB at Maple Road. Terminated from CR. Updated web. Sent fax/email. Sent HICF.</OperatorsResponse>
+<Cross_x0020_Street>Romney Drive</Cross_x0020_Street>
+<Direction>Northbound</Direction>
+<Route_x002F__x0020_Street>RTE - 62</Route_x002F__x0020_Street>
+<Municipality>Amherst, Town of</Municipality>
+<Event_x0020_Description>Amherst PD report a gas leak on Niagara Falls Blvd NB at Ridge Lea Road in the Town of Amherst.</Event_x0020_Description>
+<Caller_x0020_Organization>Amherst, Town of - Police</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>689-1311</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Amherst, Town of - Police</Caller_x0020_Name>
+<Gen_x0020_Event>Incident</Gen_x0020_Event>
+<Operators>Sullivan, Jordan</Operators>
+<time>1899-12-30T08:17:11</time>
+<Date>2010-11-10T08:17:11</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T08:17:00</DetectionTime>
+<VerifyTime>1899-12-30T08:17:00</VerifyTime>
+<SceneArrTime>1899-12-30T08:17:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T09:18:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T09:18:00</ClearTime>
+<SceneDepartTime>1899-12-30T09:18:00</SceneDepartTime>
+<RetNormTime>1899-12-30T09:19:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-10T09:34:21</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>1</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>1</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>1</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>1</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>1</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>2</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>1</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>0</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<CREventID>4109</CREventID>
+<DetectMethod>Phone Call</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-10T09:29:02</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20093</ID>
+<ID_x0020_Key>20184</ID_x0020_Key>
+<OperatorsResponse>Entered into CR. Updated web. Sent fax/email. Notified media.
+---------------------------------------------------------------------
+111010  0928  Sullivan, Jordan  Congestion has cleared. Terminated from CR. Updated web. Sent fax/email.</OperatorsResponse>
+<Cross_x0020_Street>I-290</Cross_x0020_Street>
+<Direction>Southbound</Direction>
+<Route_x002F__x0020_Street>RTE - 62</Route_x002F__x0020_Street>
+<Municipality>Amherst, Town of</Municipality>
+<Event_x0020_Description>Monitoring congestion on Rte - 62 SB from beyond South Ellicott Creek Road to I-290. Due to roadwork in that area going late this morning.</Event_x0020_Description>
+<Caller_x0020_Organization>N/A</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>N/A</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>N/A</Caller_x0020_Name>
+<Gen_x0020_Event>Congestion</Gen_x0020_Event>
+<Operators>Sullivan, Jordan</Operators>
+<time>1899-12-30T08:25:57</time>
+<Date>2010-11-10T08:25:57</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T08:25:00</DetectionTime>
+<VerifyTime>1899-12-30T08:25:00</VerifyTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<RetNormTime>1899-12-30T09:28:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-10T09:29:05</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>1</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>1</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>1</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>1</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>0</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<CREventID>4111</CREventID>
+<DetectMethod>Camera</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-10T08:58:08</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20094</ID>
+<ID_x0020_Key>20185</ID_x0020_Key>
+<OperatorsResponse>HELP reports that the DV has engine trouble and is waiting for her husband to arrive. HELP will wait behind the DV for the husband.
+---------------------------------------------------------------------
+111010  0857  Sullivan, Jordan  HELP has left the scene. All clear.</OperatorsResponse>
+<Cross_x0020_Street>Exit 2 Route 425/Colvin Boulevard</Cross_x0020_Street>
+<Direction>Eastbound/Westbound</Direction>
+<Route_x002F__x0020_Street>I - 290</Route_x002F__x0020_Street>
+<Municipality>Tonawanda, Town of</Municipality>
+<Event_x0020_Description>HELP is out with a DV on the shoulder of I-290 EB before Exit 2.</Event_x0020_Description>
+<Caller_x0020_Organization>Help Team - 1st Transit</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>N/A</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Help Team - 1st Transit</Caller_x0020_Name>
+<Gen_x0020_Event>Disabled Vehicle</Gen_x0020_Event>
+<Operators>Sullivan, Jordan</Operators>
+<time>1899-12-30T08:27:06</time>
+<Date>2010-11-10T08:27:06</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T08:27:00</DetectionTime>
+<VerifyTime>1899-12-30T08:27:00</VerifyTime>
+<SceneArrTime>1899-12-30T08:28:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T08:27:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T08:57:00</ClearTime>
+<SceneDepartTime>1899-12-30T08:57:00</SceneDepartTime>
+<RetNormTime>1899-12-30T08:58:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-10T08:58:10</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>0</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>0</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>0</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<DetectMethod>Phone Call</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-10T09:11:45</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20095</ID>
+<ID_x0020_Key>20186</ID_x0020_Key>
+<OperatorsResponse>Crossroads activated, called TSOC, web and fax updated, DMS- delays to exit 11.
+---------------------------------------------------------------------
+111010  0911  Schwartz, Andrew  Queue cleared, Crossroads, web and fax cleared.</OperatorsResponse>
+<Cross_x0020_Street>Exit 11 Route 198</Cross_x0020_Street>
+<Direction>Southbound</Direction>
+<Route_x002F__x0020_Street>I - 190</Route_x002F__x0020_Street>
+<Municipality>Buffalo, City of</Municipality>
+<Event_x0020_Description>Called to ask we sign for delays on I-190 south by exit 11 due to an accident on the shoulder.</Event_x0020_Description>
+<Caller_x0020_Organization>NYSTA - Buffalo Traffic</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>631-9017</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Slazak, Joe</Caller_x0020_Name>
+<Gen_x0020_Event>Congestion</Gen_x0020_Event>
+<Operators>Schwartz, Andrew</Operators>
+<time>1899-12-30T09:00:28</time>
+<Date>2010-11-10T09:00:28</Date>
+<Owning_x0020_Agency>NYSTA</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T09:01:00</DetectionTime>
+<VerifyTime>1899-12-30T09:01:00</VerifyTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<RetNormTime>1899-12-30T09:11:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>1</DMS>
+<DMS_x0020_Act_x0020_Time>1899-12-30T09:00:00</DMS_x0020_Act_x0020_Time>
+<DMS_x0020_DeAct_x0020_Time>1899-12-30T09:11:00</DMS_x0020_DeAct_x0020_Time>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-10T09:12:09</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<DMSActiveList>DMS N 10.8 S I-190 Ontario
+</DMSActiveList>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>1</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>1</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>1</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>1</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>1</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>1</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>0</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<CREventID>4113</CREventID>
+<DetectMethod>Phone Call</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-10T15:11:09</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20096</ID>
+<ID_x0020_Key>20187</ID_x0020_Key>
+<OperatorsResponse>Vehicles are on shoulder. Scene cleared.</OperatorsResponse>
+<Cross_x0020_Street>Union Road</Cross_x0020_Street>
+<Direction>Eastbound</Direction>
+<Route_x002F__x0020_Street>RTE - 33</Route_x002F__x0020_Street>
+<Municipality>Cheektowaga, Town of</Municipality>
+<Event_x0020_Description>HELP reports giving jump start to a DV on Rte 33 EB at Union `</Event_x0020_Description>
+<Caller_x0020_Organization>Help Team - NYSDOT</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>N/A</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Help Team - NYSDOT</Caller_x0020_Name>
+<Gen_x0020_Event>Disabled Vehicle</Gen_x0020_Event>
+<Operators>Conway, William</Operators>
+<time>1899-12-30T15:03:23</time>
+<Date>2010-11-10T15:03:23</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T14:59:00</DetectionTime>
+<VerifyTime>1899-12-30T14:59:00</VerifyTime>
+<SceneArrTime>1899-12-30T14:59:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T15:07:00</ClearTime>
+<SceneDepartTime>1899-12-30T15:07:00</SceneDepartTime>
+<RetNormTime>1899-12-30T15:07:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-10T15:11:12</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>0</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>0</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>0</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<DetectMethod>Help Team</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-10T16:00:24</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20097</ID>
+<ID_x0020_Key>20188</ID_x0020_Key>
+<OperatorsResponse>Help Team on scene.
+---------------------------------------------------------------------
+111010  1600  Thompson, John  Scene clear.</OperatorsResponse>
+<Cross_x0020_Street>Route 198</Cross_x0020_Street>
+<Direction>Eastbound</Direction>
+<Route_x002F__x0020_Street>RTE - 33</Route_x002F__x0020_Street>
+<Municipality>Buffalo, City of</Municipality>
+<Event_x0020_Description>Disabled Vehicle.  Route 33 Eastbound ramp to Route 198 Westbound.  Vehicle in right shoulder.</Event_x0020_Description>
+<Caller_x0020_Organization>Help Team - NYSDOT</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>818-4235</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Help Team - NYSDOT</Caller_x0020_Name>
+<Gen_x0020_Event>Disabled Vehicle</Gen_x0020_Event>
+<Operators>Thompson, John</Operators>
+<time>1899-12-30T15:48:33</time>
+<Date>2010-11-10T15:48:33</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T15:50:00</DetectionTime>
+<VerifyTime>1899-12-30T15:50:00</VerifyTime>
+<SceneArrTime>1899-12-30T15:50:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T15:50:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T15:59:00</ClearTime>
+<SceneDepartTime>1899-12-30T15:59:00</SceneDepartTime>
+<RetNormTime>1899-12-30T15:59:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-10T16:00:24</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>0</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>0</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>0</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<DetectMethod>Help Team</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-10T16:51:35</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20098</ID>
+<ID_x0020_Key>20189</ID_x0020_Key>
+<OperatorsResponse>Police on scene.  Temporarily closed ramp to vehicle removal.  Observed queue.  Entered CR plan, sent fax, updated web.
+---------------------------------------------------------------------
+111010  1639  Thompson, John  Ramp open.
+---------------------------------------------------------------------
+111010  1651  Thompson, John  Congestion clear.  Terminated CR plan, sent fax, updated web.</OperatorsResponse>
+<Cross_x0020_Street>Exit 16 I-290</Cross_x0020_Street>
+<Direction>Southbound</Direction>
+<Route_x002F__x0020_Street>I - 190</Route_x002F__x0020_Street>
+<Municipality>Tonawanda, Town of</Municipality>
+<Event_x0020_Description>Accident, I-190 Southbound ramp to I-290 Eastbound.  Vehicle off o f right side of ramp.</Event_x0020_Description>
+<Caller_x0020_Organization>NYS Troop - A - Police</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>585-343-2200</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>NYS Troop - A - Police</Caller_x0020_Name>
+<Gen_x0020_Event>Accidents</Gen_x0020_Event>
+<Operators>Thompson, John</Operators>
+<time>1899-12-30T16:30:50</time>
+<Date>2010-11-10T16:30:50</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T16:25:00</DetectionTime>
+<VerifyTime>1899-12-30T16:25:00</VerifyTime>
+<SceneArrTime>1899-12-30T16:25:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T16:38:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T16:51:00</ClearTime>
+<SceneDepartTime>1899-12-30T16:51:00</SceneDepartTime>
+<RetNormTime>1899-12-30T16:51:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>1</DMS>
+<DMS_x0020_Act_x0020_Time>1899-12-30T16:26:00</DMS_x0020_Act_x0020_Time>
+<DMS_x0020_DeAct_x0020_Time>1899-12-30T16:51:00</DMS_x0020_DeAct_x0020_Time>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>1</CARS_x0020_active>
+<CARS_x0020_deactive>1</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-10T16:51:57</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<DMSActiveList>DMS N 13.8 S I-190 Rt 290X16
+</DMSActiveList>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>1</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>1</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>1</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>1</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>1</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>1</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>1</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<CREventID>4146</CREventID>
+<DetectMethod>Phone Call</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-10T17:02:43</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20099</ID>
+<ID_x0020_Key>20190</ID_x0020_Key>
+<OperatorsResponse>Help Team on scene.
+---------------------------------------------------------------------
+111010  1702  Thompson, John  Scene clear.</OperatorsResponse>
+<Cross_x0020_Street>Olympic Avenue</Cross_x0020_Street>
+<Direction>Eastbound</Direction>
+<Route_x002F__x0020_Street>RTE - 33</Route_x002F__x0020_Street>
+<Municipality>Buffalo, City of</Municipality>
+<Event_x0020_Description>Disabled Vehicle.  Route 33 Eastbound at Olympic Avenue.  Vehicle in right shoulder.</Event_x0020_Description>
+<Caller_x0020_Organization>Help Team - NYSDOT</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>818-4235</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Help Team - NYSDOT</Caller_x0020_Name>
+<Gen_x0020_Event>Disabled Vehicle</Gen_x0020_Event>
+<Operators>Thompson, John</Operators>
+<time>1899-12-30T16:59:38</time>
+<Date>2010-11-10T16:59:38</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T17:00:00</DetectionTime>
+<VerifyTime>1899-12-30T17:00:00</VerifyTime>
+<SceneArrTime>1899-12-30T17:00:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T17:00:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T17:02:00</ClearTime>
+<SceneDepartTime>1899-12-30T17:02:00</SceneDepartTime>
+<RetNormTime>1899-12-30T17:02:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-10T17:03:03</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>0</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>0</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>0</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<DetectMethod>Help Team</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-10T19:11:35</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20100</ID>
+<ID_x0020_Key>20191</ID_x0020_Key>
+<OperatorsResponse>Help Team on scene.  Quickly moved vehicle to right shoulder.  Called Cheektowaga Police and advised.
+---------------------------------------------------------------------
+111010  1823  Thompson, John  Help Team complete on scene.
+---------------------------------------------------------------------
+111010  1824  Thompson, John  Police on scene.
+---------------------------------------------------------------------
+111010  1911  Thompson, John  Scene clear.</OperatorsResponse>
+<Cross_x0020_Street>Pine Ridge Road</Cross_x0020_Street>
+<Direction>Eastbound</Direction>
+<Route_x002F__x0020_Street>RTE - 33</Route_x002F__x0020_Street>
+<Municipality>Cheektowaga, Town of</Municipality>
+<Event_x0020_Description>Route 33 Eastbound at Pine Ridge Road.  Vehicle in left lane.  Left lane closed.</Event_x0020_Description>
+<Caller_x0020_Organization>Help Team - NYSDOT</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>818-4235</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Help Team - NYSDOT</Caller_x0020_Name>
+<Gen_x0020_Event>Accidents</Gen_x0020_Event>
+<Operators>Thompson, John</Operators>
+<time>1899-12-30T17:24:01</time>
+<Date>2010-11-10T17:24:01</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T17:22:00</DetectionTime>
+<VerifyTime>1899-12-30T17:22:00</VerifyTime>
+<SceneArrTime>1899-12-30T17:22:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T17:24:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T19:11:00</ClearTime>
+<SceneDepartTime>1899-12-30T19:11:00</SceneDepartTime>
+<RetNormTime>1899-12-30T19:11:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-10T19:11:37</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>0</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>0</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>1</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>1</SecondaryIncident>
+<SecondaryIncidentLogNum>20102</SecondaryIncidentLogNum>
+<IncSeverity>1</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<DetectMethod>Help Team</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-10T18:42:34</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20101</ID>
+<ID_x0020_Key>20192</ID_x0020_Key>
+<OperatorsResponse>Help Team on scene.
+---------------------------------------------------------------------
+111010  1806  Thompson, John  Help Team complete at scene.
+---------------------------------------------------------------------
+111010  1842  Thompson, John  Scene clear.</OperatorsResponse>
+<Cross_x0020_Street>Exit 6 Rte 324/Rte 240 Sheridan Dr/Harlem</Cross_x0020_Street>
+<Direction>Eastbound</Direction>
+<Route_x002F__x0020_Street>I - 290</Route_x002F__x0020_Street>
+<Municipality>Amherst, Town of</Municipality>
+<Event_x0020_Description>Accident.  I-290 Eastbound before Exit 6.   Vehicle in right shoulder.</Event_x0020_Description>
+<Caller_x0020_Organization>Help Team - 1st Transit</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>258-8976</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Help Team - 1st Transit</Caller_x0020_Name>
+<Gen_x0020_Event>Accidents</Gen_x0020_Event>
+<Operators>Thompson, John</Operators>
+<time>1899-12-30T18:02:29</time>
+<Date>2010-11-10T18:02:29</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T17:55:00</DetectionTime>
+<VerifyTime>1899-12-30T17:55:00</VerifyTime>
+<SceneArrTime>1899-12-30T17:55:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T17:55:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T18:42:00</ClearTime>
+<SceneDepartTime>1899-12-30T18:42:00</SceneDepartTime>
+<RetNormTime>1899-12-30T18:42:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-10T18:42:37</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>0</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>0</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>1</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<DetectMethod>Help Team</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-10T19:02:22</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20102</ID>
+<ID_x0020_Key>20193</ID_x0020_Key>
+<OperatorsResponse>Called Cheektowaga Police.
+---------------------------------------------------------------------
+111010  1816  Thompson, John  Help Team complete at scene.
+---------------------------------------------------------------------
+111010  1824  Thompson, John  Police on scene.
+---------------------------------------------------------------------
+111010  1902  Thompson, John  Scene clear.</OperatorsResponse>
+<Cross_x0020_Street>Pine Ridge Road</Cross_x0020_Street>
+<Direction>Eastbound</Direction>
+<Route_x002F__x0020_Street>RTE - 33</Route_x002F__x0020_Street>
+<Municipality>Cheektowaga, Town of</Municipality>
+<Event_x0020_Description>Accident. Route 33 Eastbound beyond Pine Ridge.  3 vehicles in right shoulder.</Event_x0020_Description>
+<Caller_x0020_Organization>Help Team - NYSDOT</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>818-4235</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Help Team - NYSDOT</Caller_x0020_Name>
+<Gen_x0020_Event>Accidents</Gen_x0020_Event>
+<Operators>Thompson, John</Operators>
+<time>1899-12-30T18:10:14</time>
+<Date>2010-11-10T18:10:14</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T18:05:00</DetectionTime>
+<VerifyTime>1899-12-30T18:05:00</VerifyTime>
+<SceneArrTime>1899-12-30T18:05:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T18:05:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T19:02:00</ClearTime>
+<SceneDepartTime>1899-12-30T19:02:00</SceneDepartTime>
+<RetNormTime>1899-12-30T19:02:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-10T19:02:29</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>0</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>0</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>1</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<DetectMethod>Help Team</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-10T23:36:53</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20103</ID>
+<ID_x0020_Key>20194</ID_x0020_Key>
+<OperatorsResponse>Operator Steve S. activated CR/web/ and sent fax to border congestion group.
+---------------------------------------------------------------------
+111010  2335  Idzior, Dee  MTO reports QEW is now open.  Operator Steve S. terminated CR/web/and sent clearance fax to border congestion group.</OperatorsResponse>
+<Cross_x0020_Street>Lyon&apos;s Creek Road</Cross_x0020_Street>
+<Direction>Westbound</Direction>
+<Route_x002F__x0020_Street>N/A</Route_x002F__x0020_Street>
+<Municipality>Niagara Falls, Ontario</Municipality>
+<Event_x0020_Description>MTO (Jessica) reports Fort Erie bound QEW is closed at Lyon&apos;s Creek Road in Niagara Falls, Ontario, due to an accident.</Event_x0020_Description>
+<Caller_x0020_Organization>Ministry of Transportation, (ONT)</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>1-905-637-4117</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Dispatcher-Jessica</Caller_x0020_Name>
+<Gen_x0020_Event>Accidents</Gen_x0020_Event>
+<Operators>Idzior, Dee</Operators>
+<time>1899-12-30T23:26:41</time>
+<Date>2010-11-10T23:26:41</Date>
+<Owning_x0020_Agency>MTO</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T23:26:00</DetectionTime>
+<VerifyTime>1899-12-30T23:27:00</VerifyTime>
+<SceneArrTime>1899-12-30T23:27:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T23:36:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T23:36:00</ClearTime>
+<SceneDepartTime>1899-12-30T23:36:00</SceneDepartTime>
+<RetNormTime>1899-12-30T23:36:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>1</CARS_x0020_active>
+<CARS_x0020_deactive>1</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-10T23:39:15</ModTime>
+<FullRoadClosure>1</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>1</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>1</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>1</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>1</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>3</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<CREventID>4168</CREventID>
+<DetectMethod>Phone Call</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-11T16:12:22</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20104</ID>
+<ID_x0020_Key>20195</ID_x0020_Key>
+<OperatorsResponse>Police on scene.  Activated PVMS 9293 &quot;RIGHT LANE CLOSED BEYOND MAIN ST.&quot;
+---------------------------------------------------------------------
+111110  1555  Thompson, John  Fire Department and ambulance on scene.
+---------------------------------------------------------------------
+111110  1611  Thompson, John  Scene clear.  Terminated CR plan, sent clearance fax, updated web.  Terminated PVMS 9293.</OperatorsResponse>
+<Cross_x0020_Street>Main Street</Cross_x0020_Street>
+<Direction>Eastbound</Direction>
+<Route_x002F__x0020_Street>RTE - 198</Route_x002F__x0020_Street>
+<Municipality>Buffalo, City of</Municipality>
+<Event_x0020_Description>Accident, Route 198 Eastbound beyond Main Street.  Two vehicles in lane.  Right lane closed.</Event_x0020_Description>
+<Caller_x0020_Organization>Buffalo, City of - Police</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>851-4551</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Buffalo, City of - Police</Caller_x0020_Name>
+<Gen_x0020_Event>Accidents</Gen_x0020_Event>
+<Operators>Thompson, John</Operators>
+<time>1899-12-30T15:47:39</time>
+<Date>2010-11-11T15:47:39</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T15:47:00</DetectionTime>
+<VerifyTime>1899-12-30T15:47:00</VerifyTime>
+<SceneArrTime>1899-12-30T15:47:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T16:11:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T16:11:00</ClearTime>
+<SceneDepartTime>1899-12-30T16:11:00</SceneDepartTime>
+<RetNormTime>1899-12-30T16:11:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>1</PVMS>
+<PVMS_x0020_Act_x0020_Time>1899-12-30T15:48:00</PVMS_x0020_Act_x0020_Time>
+<PVMS_x0020_DeAct_x0020_Time>1899-12-30T16:11:00</PVMS_x0020_DeAct_x0020_Time>
+<HAR>0</HAR>
+<CARS_x0020_active>1</CARS_x0020_active>
+<CARS_x0020_deactive>1</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-11T16:30:02</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>1</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>1</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>1</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>1</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>1</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>1</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<CREventID>4190</CREventID>
+<DetectMethod>Scanner</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-11T17:04:37</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20105</ID>
+<ID_x0020_Key>20196</ID_x0020_Key>
+<OperatorsResponse>Tow on scene.  Entered CR plan, sent fax, updated web.  Media notified.  Entered CR plan for queue, sent fax, updated web.  Police on scene.
+---------------------------------------------------------------------
+111110  1626  Thompson, John  Accident at Eggert clear.  Terminated CR plan, for accident, sent clearance fax, updated web.  Plan for queue remains.  Activated PVMS 9255.
+---------------------------------------------------------------------
+111110  1704  Thompson, John  Congestion clear.  Terminated CR plan, sent clearance fax, updated web.  Terminated PVMS 9255.</OperatorsResponse>
+<Cross_x0020_Street>Eggert Road</Cross_x0020_Street>
+<Direction>Eastbound</Direction>
+<Route_x002F__x0020_Street>RTE - 33</Route_x002F__x0020_Street>
+<Municipality>Buffalo, City of</Municipality>
+<Event_x0020_Description>Accident, Route 33 Eastbound at Eggert Road.  Vehicles in lanes.  Center and left lane closed.</Event_x0020_Description>
+<Caller_x0020_Organization>NITTEC</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>847-2070</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Thompson, John</Caller_x0020_Name>
+<Gen_x0020_Event>Accidents</Gen_x0020_Event>
+<Operators>Thompson, John</Operators>
+<time>1899-12-30T16:05:54</time>
+<Date>2010-11-11T16:05:54</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T16:06:00</DetectionTime>
+<VerifyTime>1899-12-30T16:06:00</VerifyTime>
+<SceneArrTime>1899-12-30T16:06:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T16:26:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T17:04:00</ClearTime>
+<SceneDepartTime>1899-12-30T17:04:00</SceneDepartTime>
+<RetNormTime>1899-12-30T17:04:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>1</PVMS>
+<PVMS_x0020_Act_x0020_Time>1899-12-30T16:26:00</PVMS_x0020_Act_x0020_Time>
+<PVMS_x0020_DeAct_x0020_Time>1899-12-30T17:04:00</PVMS_x0020_DeAct_x0020_Time>
+<HAR>0</HAR>
+<CARS_x0020_active>1</CARS_x0020_active>
+<CARS_x0020_deactive>1</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-11T17:07:55</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>1</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>1</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>1</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>1</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>2</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>1</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<CREventID>4192/4194</CREventID>
+<DetectMethod>Scanner</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-12T01:08:20</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20106</ID>
+<ID_x0020_Key>20197</ID_x0020_Key>
+<OperatorsResponse>Verified via CCTV 124.  Activated Crossroads plan (no DMS), faxed North Erie Group.  Activated PVMS 78512 with message: &apos;RAMP TO EXIT 3 /// ALL LANES CLOSED&apos;.  There are currently over a dozen police vehicles with their flashers on blocking the entrance to the ramp.
+---------------------------------------------------------------------
+111110  2323  Schnepf, Steve  Notified media (WBEN) that ramp is closed.
+---------------------------------------------------------------------
+111210  0108  Schnepf, Steve  Amherst police report accident is clear.  Terminated Crossroads plan, sent clearance fax.  Deactivated PVMS 78512.  Notified media that ramp had reopened.</OperatorsResponse>
+<Cross_x0020_Street>Exit 3 Route 62/Niagara Falls Boulevard</Cross_x0020_Street>
+<Direction>Westbound</Direction>
+<Route_x002F__x0020_Street>I - 290</Route_x002F__x0020_Street>
+<Municipality>Amherst, Town of</Municipality>
+<Event_x0020_Description>Amherst Police report the ramp from I-290 West to Exit 3 (Niagara Falls Blvd.) is closed due to a rollover accident.</Event_x0020_Description>
+<Caller_x0020_Organization>Amherst, Town of - Police</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>689-1311</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Amherst, Town of - Police</Caller_x0020_Name>
+<Gen_x0020_Event>Accidents</Gen_x0020_Event>
+<Operators>Schnepf, Steve</Operators>
+<time>1899-12-30T22:50:06</time>
+<Date>2010-11-11T22:50:06</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T22:50:00</DetectionTime>
+<VerifyTime>1899-12-30T22:50:00</VerifyTime>
+<SceneArrTime>1899-12-30T22:50:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T01:08:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T01:08:00</ClearTime>
+<SceneDepartTime>1899-12-30T01:08:00</SceneDepartTime>
+<RetNormTime>1899-12-30T01:08:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>1</PVMS>
+<PVMS_x0020_Act_x0020_Time>1899-12-30T23:01:00</PVMS_x0020_Act_x0020_Time>
+<PVMS_x0020_DeAct_x0020_Time>1899-12-30T01:08:00</PVMS_x0020_DeAct_x0020_Time>
+<HAR>0</HAR>
+<CARS_x0020_active>1</CARS_x0020_active>
+<CARS_x0020_deactive>1</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-12T01:35:15</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>1</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>1</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>1</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>1</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>1</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<CREventID>4209</CREventID>
+<DetectMethod>Phone Call</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>0</Closed>
+<lockedID>0</lockedID>
+<ID>20107</ID>
+<ID_x0020_Key>20198</ID_x0020_Key>
+<OperatorsResponse>Activated Crossroads plan (no DMS), faxed South Erie Group.  Promoted event to main page of web.
+---------------------------------------------------------------------
+111210  0452  Schnepf, Steve  Hamburg Police say the road will likely be closed until around 11am.
+---------------------------------------------------------------------
+111210  0510  Schnepf, Steve  Notified Mike S. of closure.</OperatorsResponse>
+<Cross_x0020_Street>Amsdell @ Rte 5.</Cross_x0020_Street>
+<Direction>Northbound/Southbound</Direction>
+<Route_x002F__x0020_Street>County Road</Route_x002F__x0020_Street>
+<Municipality>Hamburg, Town of</Municipality>
+<Event_x0020_Description>Town of Hamburg Police report Amsdell Road is currently closed in both directions between Route 5 and West Parkway due to a water main break.</Event_x0020_Description>
+<Caller_x0020_Organization>Hamburg, Town of - Police</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>648-5111</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Hamburg, Town of - Police</Caller_x0020_Name>
+<Gen_x0020_Event>Incident</Gen_x0020_Event>
+<Operators>Schnepf, Steve</Operators>
+<time>1899-12-30T01:10:28</time>
+<Date>2010-11-12T01:10:28</Date>
+<Owning_x0020_Agency>Erie County</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T01:10:00</DetectionTime>
+<VerifyTime>1899-12-30T01:10:00</VerifyTime>
+<SceneArrTime>1899-12-30T01:10:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-12T05:10:19</ModTime>
+<FullRoadClosure>1</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>1</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>1</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>0</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<CREventID>4211</CREventID>
+<DetectMethod>Phone Call</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-12T07:04:11</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20108</ID>
+<ID_x0020_Key>20199</ID_x0020_Key>
+<OperatorsResponse>HELP will assist.</OperatorsResponse>
+<Cross_x0020_Street>Best Street</Cross_x0020_Street>
+<Direction>Eastbound</Direction>
+<Route_x002F__x0020_Street>RTE - 33</Route_x002F__x0020_Street>
+<Municipality>Buffalo, City of</Municipality>
+<Event_x0020_Description>HELP is out with a DV on the Rte 33 EB to Best St in the City of Buffalo.</Event_x0020_Description>
+<Caller_x0020_Organization>Help Team - 1st Transit</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>N/A</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Help Team - 1st Transit</Caller_x0020_Name>
+<Gen_x0020_Event>Disabled Vehicle</Gen_x0020_Event>
+<Operators>Eiss, Steve</Operators>
+<time>1899-12-30T06:51:10</time>
+<Date>2010-11-12T06:51:10</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T06:51:00</DetectionTime>
+<VerifyTime>1899-12-30T06:51:00</VerifyTime>
+<SceneArrTime>1899-12-30T06:52:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T06:50:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T07:04:00</ClearTime>
+<SceneDepartTime>1899-12-30T07:04:00</SceneDepartTime>
+<RetNormTime>1899-12-30T07:04:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-12T07:04:18</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>0</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>0</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>0</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<DetectMethod>Help Team</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-12T08:00:01</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20109</ID>
+<ID_x0020_Key>20200</ID_x0020_Key>
+<OperatorsResponse>HELP reports that the right lane is blocked at the moment, but that they are presently trying to get the cars to move out of the lane.
+---------------------------------------------------------------------
+111210  0755  Sullivan, Jordan  HELP reports that he has gotten the cars to move out of the lane and onto a side street.
+---------------------------------------------------------------------
+111210  0757  Sullivan, Jordan  HELP is leaving the scene.</OperatorsResponse>
+<Cross_x0020_Street>Delaware Avenue</Cross_x0020_Street>
+<Direction>Westbound</Direction>
+<Route_x002F__x0020_Street>RTE - 198</Route_x002F__x0020_Street>
+<Municipality>Buffalo, City of</Municipality>
+<Event_x0020_Description>HELP is out with a two car accident on Rte - 198 WB at Delaware Ave.</Event_x0020_Description>
+<Caller_x0020_Organization>Help Team - 1st Transit</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>N/A</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Help Team - 1st Transit</Caller_x0020_Name>
+<Gen_x0020_Event>Accidents</Gen_x0020_Event>
+<Operators>Sullivan, Jordan</Operators>
+<time>1899-12-30T07:50:47</time>
+<Date>2010-11-12T07:50:47</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T07:50:00</DetectionTime>
+<VerifyTime>1899-12-30T07:50:00</VerifyTime>
+<SceneArrTime>1899-12-30T07:51:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T07:55:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T07:57:00</ClearTime>
+<SceneDepartTime>1899-12-30T07:57:00</SceneDepartTime>
+<RetNormTime>1899-12-30T07:58:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-12T08:00:31</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>0</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>0</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>1</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>1</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<DetectMethod>Phone Call</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>1</Closed>
+<ClosedTime>2010-11-12T09:26:36</ClosedTime>
+<lockedID>0</lockedID>
+<ID>20111</ID>
+<ID_x0020_Key>20202</ID_x0020_Key>
+<OperatorsResponse>HELP will assist.</OperatorsResponse>
+<Cross_x0020_Street>Fillmore</Cross_x0020_Street>
+<Direction>Westbound</Direction>
+<Route_x002F__x0020_Street>RTE - 33</Route_x002F__x0020_Street>
+<Municipality>Buffalo, City of</Municipality>
+<Event_x0020_Description>HELP is out with a DV on the Rte 33 WB at Fillmore Ave in the City of Buffalo.</Event_x0020_Description>
+<Caller_x0020_Organization>Help Team - 1st Transit</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>N/A</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>Help Team - 1st Transit</Caller_x0020_Name>
+<Gen_x0020_Event>Disabled Vehicle</Gen_x0020_Event>
+<Operators>Eiss, Steve</Operators>
+<time>1899-12-30T09:24:00</time>
+<Date>2010-11-12T09:24:00</Date>
+<Owning_x0020_Agency>NYSDOT</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T09:22:00</DetectionTime>
+<VerifyTime>1899-12-30T09:22:00</VerifyTime>
+<SceneArrTime>1899-12-30T09:24:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlockClearTime>1899-12-30T09:20:00</LanBlockClearTime>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<ClearTime>1899-12-30T09:20:00</ClearTime>
+<SceneDepartTime>1899-12-30T09:26:00</SceneDepartTime>
+<RetNormTime>1899-12-30T09:26:00</RetNormTime>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>0</DMS>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-12T09:26:40</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>0</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>0</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>0</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>0</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>0</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<DetectMethod>Help Team</DetectMethod>
+</Incident_x0020_Log>
+<Incident_x0020_Log>
+<Closed>0</Closed>
+<lockedID>0</lockedID>
+<ID>20110</ID>
+<ID_x0020_Key>20201</ID_x0020_Key>
+<OperatorsResponse>Confirmed VIA CCTV 41. Accident is blocking the right hand lane on I-90 WB at approx. milepost 417.0. Police are already on scene. Entered into CR. Updated web. Sent fax/email. Activated DMS &quot;RIGHT LANE CLOSED KEEP LEFT&quot; Called TSOC.</OperatorsResponse>
+<Cross_x0020_Street>Exit 49 Depew/Route 78</Cross_x0020_Street>
+<Direction>Westbound</Direction>
+<Route_x002F__x0020_Street>I - 90</Route_x002F__x0020_Street>
+<Municipality>Depew, Village of</Municipality>
+<Event_x0020_Description>VIA CHARMS. Report of an accident on I-90 WB at Exit 49.</Event_x0020_Description>
+<Caller_x0020_Organization>N/A</Caller_x0020_Organization>
+<Caller_x0020_Phone_x0020__x0023_>N/A</Caller_x0020_Phone_x0020__x0023_>
+<Caller_x0020_Name>N/A</Caller_x0020_Name>
+<Gen_x0020_Event>Accidents</Gen_x0020_Event>
+<Operators>Sullivan, Jordan</Operators>
+<time>1899-12-30T09:19:59</time>
+<Date>2010-11-12T09:19:59</Date>
+<Owning_x0020_Agency>NYSTA</Owning_x0020_Agency>
+<DetectionTime>1899-12-30T09:19:00</DetectionTime>
+<VerifyTime>1899-12-30T09:19:00</VerifyTime>
+<SceneArrTime>1899-12-30T09:19:00</SceneArrTime>
+<SceneArrTimeSpan>0</SceneArrTimeSpan>
+<SceneArrTimeSpanMod>0</SceneArrTimeSpanMod>
+<SceneArrTimeSpanMax>0</SceneArrTimeSpanMax>
+<LanBlcokClearTimeSpan>0</LanBlcokClearTimeSpan>
+<LanBlcokClearTimeSpanMod>0</LanBlcokClearTimeSpanMod>
+<LanBlcokClearTimeSpanMax>0</LanBlcokClearTimeSpanMax>
+<RetNormTimeSpan>0</RetNormTimeSpan>
+<RetNormTimeSpanMod>0</RetNormTimeSpanMod>
+<RetNormTimeSpanMax>0</RetNormTimeSpanMax>
+<TotalClearTime>0</TotalClearTime>
+<DMS>1</DMS>
+<DMS_x0020_Act_x0020_Time>1899-12-30T09:19:00</DMS_x0020_Act_x0020_Time>
+<PVMS>0</PVMS>
+<HAR>0</HAR>
+<CARS_x0020_active>0</CARS_x0020_active>
+<CARS_x0020_deactive>0</CARS_x0020_deactive>
+<CARS_x0020_Man_x0020_Act>0</CARS_x0020_Man_x0020_Act>
+<CARS_x0020_Man_x0020_DeAct>0</CARS_x0020_Man_x0020_DeAct>
+<Website_x0020_added_x0020_incident>0</Website_x0020_added_x0020_incident>
+<Website_x0020_deleted_x0020_incident>0</Website_x0020_deleted_x0020_incident>
+<LaneBlocked>0</LaneBlocked>
+<ModTime>2010-11-12T09:30:29</ModTime>
+<FullRoadClosure>0</FullRoadClosure>
+<DMSActiveList>DMS 416.5 W I-90 DepewX49
+</DMSActiveList>
+<TransAlert_x0020_Act>0</TransAlert_x0020_Act>
+<TransAlert_x0020_DeAct>0</TransAlert_x0020_DeAct>
+<TCWS>0</TCWS>
+<Skyway>0</Skyway>
+<CharmsEventNoAction>0</CharmsEventNoAction>
+<HICFSent>0</HICFSent>
+<HARSlot>0</HARSlot>
+<CRDMS_x0020_Act>1</CRDMS_x0020_Act>
+<CRDMS_x0020_DeAct>0</CRDMS_x0020_DeAct>
+<CRFaxEmail_x0020_Act>1</CRFaxEmail_x0020_Act>
+<CRFaxEmail_x0020_DeAct>0</CRFaxEmail_x0020_DeAct>
+<CRWeb_x0020_Act>1</CRWeb_x0020_Act>
+<CRWeb_x0020_DeAct>0</CRWeb_x0020_DeAct>
+<Num_x0020_Lanes_x0020_Blocked>1</Num_x0020_Lanes_x0020_Blocked>
+<HICFFinalSent>0</HICFFinalSent>
+<SceneATS>0</SceneATS>
+<LaneBCTS>0</LaneBCTS>
+<RetNTS>0</RetNTS>
+<ExcludeFromRep>0</ExcludeFromRep>
+<SecondaryIncident>0</SecondaryIncident>
+<IncSeverity>1</IncSeverity>
+<IncSeverityMod>0</IncSeverityMod>
+<IncSeverityMaj>0</IncSeverityMaj>
+<CREventID>1706</CREventID>
+<DetectMethod>CHARMS</DetectMethod>
+<LogType>1</LogType>
+</Incident_x0020_Log>
+</dataroot>

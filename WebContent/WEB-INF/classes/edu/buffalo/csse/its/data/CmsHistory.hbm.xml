@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 1, 2011 3:33:14 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="edu.buffalo.csse.its.data.CmsHistory" table="CMS_HISTORY">
+        <id name="seq_no" type="long">
+            <generator class="native" />
+        </id>
+        <property name="device_id" type="int">
+            <column name="DEVICE_ID" />
+        </property>
+        <property name="local_update_time" type="long">
+            <column name="LOCAL_UPDATE_TIME" />
+        </property>
+        <property name="univeral_update_time" type="long">
+            <column name="UNIVERSAL_UPDATE_TIME" />
+        </property>
+        <property name="device_type" type="java.lang.String">
+            <column name="DEVICE_TYPE" />
+        </property>
+        <property name="number_of_phases" type="int">
+            <column name="NUMBER_OF_PHASES" />
+        </property>
+        <property name="static_text1" type="java.lang.String">
+            <column name="STATIC_TEXT1" />
+        </property>
+        <property name="static_text2" type="java.lang.String">
+            <column name="STATIC_TEXT2" />
+        </property>
+        <property name="static_text3" type="java.lang.String">
+            <column name="STATIC_TEXT3" />
+        </property>
+        <property name="phase1_line1_text" type="java.lang.String">
+            <column name="PHASE1_LINE1_TEXT" />
+        </property>
+        <property name="phase1_line2_text" type="java.lang.String">
+            <column name="PHASE1_LINE2_TEXT" />
+        </property>
+        <property name="phase1_line3_text" type="java.lang.String">
+            <column name="PHASE1_LINE3_TEXT" />
+        </property>
+        <property name="phase2_line1_text" type="java.lang.String">
+            <column name="PHASE2_LINE1_TEXT" />
+        </property>
+        <property name="phase2_line2_text" type="java.lang.String">
+            <column name="PHASE2_LINE2_TEXT" />
+        </property>
+        <property name="phase2_line3_text" type="java.lang.String">
+            <column name="PHASE2_LINE3_TEXT" />
+        </property>
+        <property name="lastModifiedTime" type="java.sql.Timestamp">
+            <column name="LASTMODIFIEDTIME" />
+        </property>
+        <property name="lastUser" type="java.lang.String">
+            <column name="LASTUSER" />
+        </property>
+    </class>
+</hibernate-mapping>

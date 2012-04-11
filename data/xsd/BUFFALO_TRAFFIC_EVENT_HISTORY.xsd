@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="DATAPACKET">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="METADATA"/>
+        <xs:element ref="ROWDATA"/>
+      </xs:sequence>
+      <xs:attribute name="Version" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="METADATA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="FIELDS"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FIELDS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="FIELD"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FIELD">
+    <xs:complexType>
+      <xs:attribute name="DisplayLabel" use="required" type="xs:NCName"/>
+      <xs:attribute name="FieldClass" use="required" type="xs:NCName"/>
+      <xs:attribute name="FieldName" use="required" type="xs:NCName"/>
+      <xs:attribute name="FieldType" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ROWDATA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ROW"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ROW">
+    <xs:complexType>
+      <xs:attribute name="ACTION" use="required" type="xs:NCName"/>
+      <xs:attribute name="AREAS" use="required" type="xs:NCName"/>
+      <xs:attribute name="ATEID" use="required"/>
+      <xs:attribute name="BLOCKEDLANE" use="required" type="xs:NCName"/>
+      <xs:attribute name="CAUSE" use="required"/>
+      <xs:attribute name="CONFIRMATIONSOURCE" use="required" type="xs:NCName"/>
+      <xs:attribute name="CONFIRMATIONTIME" use="required"/>
+      <xs:attribute name="DETECTIONTIME" use="required"/>
+      <xs:attribute name="DISTANCECOVERED" use="required"/>
+      <xs:attribute name="DISTRICT" use="required" type="xs:NCName"/>
+      <xs:attribute name="ESTIMATEDDURATION" use="required" type="xs:NCName"/>
+      <xs:attribute name="FULLCLOSURE" use="required" type="xs:NCName"/>
+      <xs:attribute name="HEADLOCSTRING" use="required"/>
+      <xs:attribute name="HEADLONGROADNAME" use="required"/>
+      <xs:attribute name="HEADVDSID" use="required"/>
+      <xs:attribute name="INCIDENTID" use="required" type="xs:decimal"/>
+      <xs:attribute name="INITIALNOTIFICATIONTIME" use="required" type="xs:NCName"/>
+      <xs:attribute name="INJURIES" use="required" type="xs:NCName"/>
+      <xs:attribute name="LEFTSHOULDER" use="required" type="xs:NCName"/>
+      <xs:attribute name="LOCALUPDATETIME" use="required"/>
+      <xs:attribute name="LONGDESC" use="required"/>
+      <xs:attribute name="NORMALTRAFFICFLOWTIME" use="required" type="xs:NCName"/>
+      <xs:attribute name="NOTIFICATIONTIME" use="required" type="xs:NCName"/>
+      <xs:attribute name="OCCURENCETIME" use="required" type="xs:NCName"/>
+      <xs:attribute name="OWNER" use="required"/>
+      <xs:attribute name="QUEUEID" use="required" type="xs:decimal"/>
+      <xs:attribute name="RIGHTSHOULDER" use="required" type="xs:NCName"/>
+      <xs:attribute name="SECONDARY" use="required" type="xs:NCName"/>
+      <xs:attribute name="SEVERITY" use="required" type="xs:decimal"/>
+      <xs:attribute name="SOURCE" use="required" type="xs:NCName"/>
+      <xs:attribute name="STATE" use="required" type="xs:NCName"/>
+      <xs:attribute name="SUBCAUSE" use="required" type="xs:NCName"/>
+      <xs:attribute name="TAILLOCSTRING" use="required"/>
+      <xs:attribute name="TAILLONGROADNAME" use="required"/>
+      <xs:attribute name="TAILVDSID" use="required"/>
+      <xs:attribute name="TETYPE" use="required" type="xs:NCName"/>
+      <xs:attribute name="TOWN" use="required" type="xs:NCName"/>
+      <xs:attribute name="TRANSITTYPE" use="required" type="xs:NCName"/>
+      <xs:attribute name="UNIVERSALUPDATETIME" use="required"/>
+      <xs:attribute name="VEHICLESINVOLVED" use="required" type="xs:NCName"/>
+      <xs:attribute name="VERIFICATIONTIME" use="required" type="xs:NCName"/>
+      <xs:attribute name="WRECKERCLEARSLANES" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

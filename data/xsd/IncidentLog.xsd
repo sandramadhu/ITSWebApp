@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="dataroot">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Incident_x0020_Log"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Incident_x0020_Log">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Closed"/>
+        <xs:element minOccurs="0" ref="ClosedTime"/>
+        <xs:element ref="lockedID"/>
+        <xs:element ref="ID"/>
+        <xs:element ref="ID_x0020_Key"/>
+        <xs:element ref="OperatorsResponse"/>
+        <xs:element ref="Cross_x0020_Street"/>
+        <xs:element ref="Direction"/>
+        <xs:element ref="Route_x002F__x0020_Street"/>
+        <xs:element ref="Municipality"/>
+        <xs:element ref="Event_x0020_Description"/>
+        <xs:element ref="Caller_x0020_Organization"/>
+        <xs:element ref="Caller_x0020_Phone_x0020__x0023_"/>
+        <xs:element ref="Caller_x0020_Name"/>
+        <xs:element ref="Gen_x0020_Event"/>
+        <xs:element ref="Operators"/>
+        <xs:element ref="time"/>
+        <xs:element ref="Date"/>
+        <xs:element ref="Owning_x0020_Agency"/>
+        <xs:element ref="DetectionTime"/>
+        <xs:element ref="VerifyTime"/>
+        <xs:element minOccurs="0" ref="SceneArrTime"/>
+        <xs:element ref="SceneArrTimeSpan"/>
+        <xs:element ref="SceneArrTimeSpanMod"/>
+        <xs:element ref="SceneArrTimeSpanMax"/>
+        <xs:element minOccurs="0" ref="LanBlockClearTime"/>
+        <xs:element ref="LanBlcokClearTimeSpan"/>
+        <xs:element ref="LanBlcokClearTimeSpanMod"/>
+        <xs:element ref="LanBlcokClearTimeSpanMax"/>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="ClearTime"/>
+          <xs:element ref="SceneDepartTime"/>
+        </xs:sequence>
+        <xs:element minOccurs="0" ref="RetNormTime"/>
+        <xs:element ref="RetNormTimeSpan"/>
+        <xs:element ref="RetNormTimeSpanMod"/>
+        <xs:element ref="RetNormTimeSpanMax"/>
+        <xs:element ref="TotalClearTime"/>
+        <xs:element ref="DMS"/>
+        <xs:element minOccurs="0" ref="DMS_x0020_Act_x0020_Time"/>
+        <xs:element minOccurs="0" ref="DMS_x0020_DeAct_x0020_Time"/>
+        <xs:element ref="PVMS"/>
+        <xs:sequence minOccurs="0">
+          <xs:element ref="PVMS_x0020_Act_x0020_Time"/>
+          <xs:element ref="PVMS_x0020_DeAct_x0020_Time"/>
+        </xs:sequence>
+        <xs:element ref="HAR"/>
+        <xs:element ref="CARS_x0020_active"/>
+        <xs:element ref="CARS_x0020_deactive"/>
+        <xs:element ref="CARS_x0020_Man_x0020_Act"/>
+        <xs:element ref="CARS_x0020_Man_x0020_DeAct"/>
+        <xs:element ref="Website_x0020_added_x0020_incident"/>
+        <xs:element ref="Website_x0020_deleted_x0020_incident"/>
+        <xs:element ref="LaneBlocked"/>
+        <xs:element ref="ModTime"/>
+        <xs:element ref="FullRoadClosure"/>
+        <xs:element minOccurs="0" ref="DMSActiveList"/>
+        <xs:element ref="TransAlert_x0020_Act"/>
+        <xs:element ref="TransAlert_x0020_DeAct"/>
+        <xs:element ref="TCWS"/>
+        <xs:element ref="Skyway"/>
+        <xs:element ref="CharmsEventNoAction"/>
+        <xs:element ref="HICFSent"/>
+        <xs:element ref="HARSlot"/>
+        <xs:element ref="CRDMS_x0020_Act"/>
+        <xs:element ref="CRDMS_x0020_DeAct"/>
+        <xs:element ref="CRFaxEmail_x0020_Act"/>
+        <xs:element ref="CRFaxEmail_x0020_DeAct"/>
+        <xs:element ref="CRWeb_x0020_Act"/>
+        <xs:element ref="CRWeb_x0020_DeAct"/>
+        <xs:element ref="Num_x0020_Lanes_x0020_Blocked"/>
+        <xs:element ref="HICFFinalSent"/>
+        <xs:element ref="SceneATS"/>
+        <xs:element ref="LaneBCTS"/>
+        <xs:element ref="RetNTS"/>
+        <xs:element ref="ExcludeFromRep"/>
+        <xs:element ref="SecondaryIncident"/>
+        <xs:element minOccurs="0" ref="SecondaryIncidentLogNum"/>
+        <xs:element ref="IncSeverity"/>
+        <xs:element ref="IncSeverityMod"/>
+        <xs:element ref="IncSeverityMaj"/>
+        <xs:element minOccurs="0" ref="CREventID"/>
+        <xs:element ref="DetectMethod"/>
+        <xs:element minOccurs="0" ref="LogType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Closed" type="xs:integer"/>
+  <xs:element name="ClosedTime" type="xs:NMTOKEN"/>
+  <xs:element name="lockedID" type="xs:integer"/>
+  <xs:element name="ID" type="xs:integer"/>
+  <xs:element name="ID_x0020_Key" type="xs:integer"/>
+  <xs:element name="OperatorsResponse" type="xs:string"/>
+  <xs:element name="Cross_x0020_Street" type="xs:string"/>
+  <xs:element name="Direction" type="xs:string"/>
+  <xs:element name="Route_x002F__x0020_Street" type="xs:string"/>
+  <xs:element name="Municipality" type="xs:string"/>
+  <xs:element name="Event_x0020_Description" type="xs:string"/>
+  <xs:element name="Caller_x0020_Organization" type="xs:string"/>
+  <xs:element name="Caller_x0020_Phone_x0020__x0023_" type="xs:string"/>
+  <xs:element name="Caller_x0020_Name" type="xs:string"/>
+  <xs:element name="Gen_x0020_Event" type="xs:string"/>
+  <xs:element name="Operators" type="xs:string"/>
+  <xs:element name="time" type="xs:NMTOKEN"/>
+  <xs:element name="Date" type="xs:NMTOKEN"/>
+  <xs:element name="Owning_x0020_Agency" type="xs:string"/>
+  <xs:element name="DetectionTime" type="xs:NMTOKEN"/>
+  <xs:element name="VerifyTime" type="xs:NMTOKEN"/>
+  <xs:element name="SceneArrTime" type="xs:NMTOKEN"/>
+  <xs:element name="SceneArrTimeSpan" type="xs:integer"/>
+  <xs:element name="SceneArrTimeSpanMod" type="xs:integer"/>
+  <xs:element name="SceneArrTimeSpanMax" type="xs:integer"/>
+  <xs:element name="LanBlockClearTime" type="xs:NMTOKEN"/>
+  <xs:element name="LanBlcokClearTimeSpan" type="xs:integer"/>
+  <xs:element name="LanBlcokClearTimeSpanMod" type="xs:integer"/>
+  <xs:element name="LanBlcokClearTimeSpanMax" type="xs:integer"/>
+  <xs:element name="ClearTime" type="xs:NMTOKEN"/>
+  <xs:element name="SceneDepartTime" type="xs:NMTOKEN"/>
+  <xs:element name="RetNormTime" type="xs:NMTOKEN"/>
+  <xs:element name="RetNormTimeSpan" type="xs:integer"/>
+  <xs:element name="RetNormTimeSpanMod" type="xs:integer"/>
+  <xs:element name="RetNormTimeSpanMax" type="xs:integer"/>
+  <xs:element name="TotalClearTime" type="xs:integer"/>
+  <xs:element name="DMS" type="xs:integer"/>
+  <xs:element name="DMS_x0020_Act_x0020_Time" type="xs:NMTOKEN"/>
+  <xs:element name="DMS_x0020_DeAct_x0020_Time" type="xs:NMTOKEN"/>
+  <xs:element name="PVMS" type="xs:integer"/>
+  <xs:element name="PVMS_x0020_Act_x0020_Time" type="xs:NMTOKEN"/>
+  <xs:element name="PVMS_x0020_DeAct_x0020_Time" type="xs:NMTOKEN"/>
+  <xs:element name="HAR" type="xs:integer"/>
+  <xs:element name="CARS_x0020_active" type="xs:integer"/>
+  <xs:element name="CARS_x0020_deactive" type="xs:integer"/>
+  <xs:element name="CARS_x0020_Man_x0020_Act" type="xs:integer"/>
+  <xs:element name="CARS_x0020_Man_x0020_DeAct" type="xs:integer"/>
+  <xs:element name="Website_x0020_added_x0020_incident" type="xs:integer"/>
+  <xs:element name="Website_x0020_deleted_x0020_incident" type="xs:integer"/>
+  <xs:element name="LaneBlocked" type="xs:integer"/>
+  <xs:element name="ModTime" type="xs:NMTOKEN"/>
+  <xs:element name="FullRoadClosure" type="xs:integer"/>
+  <xs:element name="DMSActiveList" type="xs:string"/>
+  <xs:element name="TransAlert_x0020_Act" type="xs:integer"/>
+  <xs:element name="TransAlert_x0020_DeAct" type="xs:integer"/>
+  <xs:element name="TCWS" type="xs:integer"/>
+  <xs:element name="Skyway" type="xs:integer"/>
+  <xs:element name="CharmsEventNoAction" type="xs:integer"/>
+  <xs:element name="HICFSent" type="xs:integer"/>
+  <xs:element name="HARSlot" type="xs:integer"/>
+  <xs:element name="CRDMS_x0020_Act" type="xs:integer"/>
+  <xs:element name="CRDMS_x0020_DeAct" type="xs:integer"/>
+  <xs:element name="CRFaxEmail_x0020_Act" type="xs:integer"/>
+  <xs:element name="CRFaxEmail_x0020_DeAct" type="xs:integer"/>
+  <xs:element name="CRWeb_x0020_Act" type="xs:integer"/>
+  <xs:element name="CRWeb_x0020_DeAct" type="xs:integer"/>
+  <xs:element name="Num_x0020_Lanes_x0020_Blocked" type="xs:integer"/>
+  <xs:element name="HICFFinalSent" type="xs:integer"/>
+  <xs:element name="SceneATS" type="xs:integer"/>
+  <xs:element name="LaneBCTS" type="xs:integer"/>
+  <xs:element name="RetNTS" type="xs:integer"/>
+  <xs:element name="ExcludeFromRep" type="xs:integer"/>
+  <xs:element name="SecondaryIncident" type="xs:integer"/>
+  <xs:element name="SecondaryIncidentLogNum" type="xs:integer"/>
+  <xs:element name="IncSeverity" type="xs:integer"/>
+  <xs:element name="IncSeverityMod" type="xs:integer"/>
+  <xs:element name="IncSeverityMaj" type="xs:integer"/>
+  <xs:element name="CREventID" type="xs:string"/>
+  <xs:element name="DetectMethod" type="xs:string"/>
+  <xs:element name="LogType" type="xs:integer"/>
+</xs:schema>

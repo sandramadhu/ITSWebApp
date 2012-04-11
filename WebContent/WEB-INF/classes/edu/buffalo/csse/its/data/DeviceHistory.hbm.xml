@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 1, 2011 4:46:39 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="edu.buffalo.csse.its.data.DeviceHistory" table="DEVICE_HISTORY">
+        <id name="seq_no" type="long">
+            <generator class="native" />
+        </id>
+        
+        <property name="universalUpdateTime" type="long">
+            <column name="UNIVERSAL_UPDATE_TIME" />
+        </property>
+        <property name="localUpdateTime" type="long">
+            <column name="LOCAL_UPDATE_TIME" />
+        </property>
+        <property name="action" type="java.lang.String">
+            <column name="ACTION" />
+        </property>
+        <property name="deviceType" type="java.lang.String">
+            <column name="DEVICE_TYPE" />
+        </property>
+        <property name="deviceId" type="int">
+            <column name="DEVICE_ID" />
+        </property>
+        <property name="deviceComponentId" type="int">
+            <column name="DEVICE_COMPONENT_ID" />
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="DESCRIPTION" />
+        </property>
+        <property name="sourceType" type="java.lang.String">
+            <column name="SOURCE_TYPE" />
+        </property>
+        <property name="sourceId" type="java.lang.String">
+            <column name="SOURCE_ID" />
+        </property>
+        <property name="state" type="java.lang.String">
+            <column name="STATE" />
+        </property>
+        <property name="status" type="java.lang.String">
+            <column name="STATUS" />
+        </property>
+        <property name="lastModifiedTime" type="java.sql.Timestamp">
+            <column name="LASTMODIFIEDTIME" />
+        </property>
+        <property name="lastUser" type="java.lang.String">
+            <column name="LASTUSER" />
+        </property>
+    </class>
+</hibernate-mapping>

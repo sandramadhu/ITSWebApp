@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:aop="http://www.springframework.org/schema/aop"
+         xmlns:tx="http://www.springframework.org/schema/tx"
+         xsi:schemaLocation="http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+           http://www.springframework.org/schema/aop 
+           http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+           http://www.springframework.org/schema/tx 
+           http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
+
+    <!-- the parent application context definition for the springapp application -->
+
+ 	<bean id="propertyConfigurer" 
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:jdbc.properties</value>
+            </list>
+        </property>
+    </bean>
+    
+    <bean id="myDataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<!--<property name="driverClassName" value="${jdbc.driverClassName}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        
+		-->
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/itransport" />
+		<property name="username" value="root" />
+		<property name="password" value="passwd" />
+	
+	</bean>
+	
+	<bean id="mySessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource" ref="myDataSource" />
+		<property name="mappingResources">
+			<list>
+				<value>edu/buffalo/csse/its/data/IncidentLog.hbm.xml</value>
+				<value>edu/buffalo/csse/its/data/BcdEventHistory.hbm.xml</value>
+				<value>edu/buffalo/csse/its/data/CmsHistory.hbm.xml</value>
+				<value>edu/buffalo/csse/its/data/DeviceHistory.hbm.xml</value>
+				<value>edu/buffalo/csse/its/data/ExternalAgencyHistory.hbm.xml</value>
+				<value>edu/buffalo/csse/its/data/TrafficEventHistory.hbm.xml</value>
+				<value>edu/buffalo/csse/its/data/TravelRouteHistory.hbm.xml</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+			</props>
+		</property>
+	</bean>
+	
+	<bean id="myTxManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+	
+	<bean id="incidentLogDao" class="edu.buffalo.csse.its.dao.IncidentLogDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+	<bean id="bcdEventHistoryDao" class="edu.buffalo.csse.its.dao.BcdEventHistoryDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+	<bean id="cmsHistoryDao" class="edu.buffalo.csse.its.dao.CmsHistoryDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+	<bean id="deviceHistoryDao" class="edu.buffalo.csse.its.dao.DeviceHistoryDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+	<bean id="externalAgencyHistoryDao" class="edu.buffalo.csse.its.dao.ExternalAgencyHistoryDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+	<bean id="trafficEventHistoryDao" class="edu.buffalo.csse.its.dao.TrafficEventHistoryDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+	<bean id="travelRouteHistoryDao" class="edu.buffalo.csse.its.dao.TravelRouteHistoryDaoImpl">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+	
+	<bean id="myIncidentService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="edu.buffalo.csse.its.service.IncidentService" />
+		<property name="target">
+			<bean class="edu.buffalo.csse.its.service.IncidentServiceImpl">
+				<property name="incidentLogDao" ref="incidentLogDao" />
+			</bean>
+		</property>
+	</bean>
+	
+	<bean id="myBcdEventHistoryService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="edu.buffalo.csse.its.service.DataService" />
+		<property name="target">
+			<bean class="edu.buffalo.csse.its.service.BcdEventHistoryServiceImpl">
+				<property name="bcdEventHistoryDao" ref="bcdEventHistoryDao" />
+			</bean>
+		</property>
+	</bean>
+	
+	<bean id="myCmsHistoryService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="edu.buffalo.csse.its.service.DataService" />
+		<property name="target">
+			<bean class="edu.buffalo.csse.its.service.CmsHistoryServiceImpl">
+				<property name="cmsHistoryDao" ref="cmsHistoryDao" />
+			</bean>
+		</property>
+	</bean>
+	
+	<bean id="myDeviceHistoryService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="edu.buffalo.csse.its.service.DataService" />
+		<property name="target">
+			<bean class="edu.buffalo.csse.its.service.DeviceHistoryServiceImpl">
+				<property name="deviceHistoryDao" ref="deviceHistoryDao" />
+			</bean>
+		</property>
+	</bean>
+	
+	<bean id="myExternalAgencyHistoryService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="edu.buffalo.csse.its.service.DataService" />
+		<property name="target">
+			<bean class="edu.buffalo.csse.its.service.ExternalAgencyHistoryServiceImpl">
+				<property name="externalAgencyHistoryDao" ref="externalAgencyHistoryDao" />
+			</bean>
+		</property>
+	</bean>
+	
+	<bean id="myTrafficEventHistoryService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="edu.buffalo.csse.its.service.DataService" />
+		<property name="target">
+			<bean class="edu.buffalo.csse.its.service.TrafficEventHistoryServiceImpl">
+				<property name="trafficEventHistoryDao" ref="trafficEventHistoryDao" />
+			</bean>
+		</property>
+	</bean>
+	
+	<bean id="myTravelRouteHistoryService" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="proxyInterfaces" value="edu.buffalo.csse.its.service.DataService" />
+		<property name="target">
+			<bean class="edu.buffalo.csse.its.service.TravelRouteHistoryServiceImpl">
+				<property name="travelRouteHistoryDao" ref="travelRouteHistoryDao" />
+			</bean>
+		</property>
+	</bean>
+	
+	<!-- Scheduler task -->
+   <bean name="incidentLogTask" class="edu.buffalo.csse.its.batchjobs.IncidentLogTask">
+   		<property name="incidentService" ref="myIncidentService" />
+   </bean>
+   <bean name="bcdEventHistoryTask" class="edu.buffalo.csse.its.batchjobs.BcdEventHistoryTask">
+   		<property name="dataService" ref="myBcdEventHistoryService" />
+   </bean>
+   <bean name="cmsHistoryTask" class="edu.buffalo.csse.its.batchjobs.CmsHistoryTask">
+   		<property name="dataService" ref="myCmsHistoryService" />
+   </bean>
+   <bean name="deviceHistoryTask" class="edu.buffalo.csse.its.batchjobs.DeviceHistoryTask">
+   		<property name="dataService" ref="myDeviceHistoryService" />
+   </bean>
+   <bean name="externalAgencyHistoryTask" class="edu.buffalo.csse.its.batchjobs.ExternalAgencyHistoryTask">
+   		<property name="dataService" ref="myExternalAgencyHistoryService" />
+   </bean>
+    <bean name="trafficEventHistoryTask" class="edu.buffalo.csse.its.batchjobs.TrafficEventHistoryTask">
+   		<property name="dataService" ref="myTrafficEventHistoryService" />
+   </bean>
+   <bean name="travelRouteHistoryTask" class="edu.buffalo.csse.its.batchjobs.TravelRouteHistoryTask">
+   		<property name="dataService" ref="myTravelRouteHistoryService" />
+   </bean>
+ 
+   <!-- Scheduler job -->
+   <bean name="incidentLogJob"
+	   class="org.springframework.scheduling.quartz.JobDetailBean">
+ 
+     <property name="jobClass" value="edu.buffalo.csse.its.batchjobs.IncidentLogJob" />
+ 
+     <property name="jobDataAsMap">
+	    <map>
+	      <entry key="incidentLogTask" value-ref="incidentLogTask" />
+	     </map>
+      </property>
+   </bean>
+   <bean name="bcdEventHistoryJob"
+	   class="org.springframework.scheduling.quartz.JobDetailBean">
+ 
+     <property name="jobClass" value="edu.buffalo.csse.its.batchjobs.BcdEventHistoryJob" />
+ 
+     <property name="jobDataAsMap">
+	    <map>
+	      <entry key="bcdEventHistoryTask" value-ref="bcdEventHistoryTask" />
+	     </map>
+      </property>
+   </bean>
+   <bean name="cmsHistoryJob"
+	   class="org.springframework.scheduling.quartz.JobDetailBean">
+ 
+     <property name="jobClass" value="edu.buffalo.csse.its.batchjobs.CmsHistoryJob" />
+ 
+     <property name="jobDataAsMap">
+	    <map>
+	      <entry key="cmsHistoryTask" value-ref="cmsHistoryTask" />
+	     </map>
+      </property>
+   </bean>
+   <bean name="deviceHistoryJob"
+	   class="org.springframework.scheduling.quartz.JobDetailBean">
+ 
+     <property name="jobClass" value="edu.buffalo.csse.its.batchjobs.DeviceHistoryJob" />
+ 
+     <property name="jobDataAsMap">
+	    <map>
+	      <entry key="deviceHistoryTask" value-ref="deviceHistoryTask" />
+	     </map>
+      </property>
+   </bean>
+   <bean name="externalAgencyHistoryJob"
+	   class="org.springframework.scheduling.quartz.JobDetailBean">
+ 
+     <property name="jobClass" value="edu.buffalo.csse.its.batchjobs.ExternalAgencyHistoryJob" />
+ 
+     <property name="jobDataAsMap">
+	    <map>
+	      <entry key="externalAgencyHistoryTask" value-ref="externalAgencyHistoryTask" />
+	     </map>
+      </property>
+   </bean>
+   <bean name="trafficEventHistoryJob"
+	   class="org.springframework.scheduling.quartz.JobDetailBean">
+ 
+     <property name="jobClass" value="edu.buffalo.csse.its.batchjobs.TrafficEventHistoryJob" />
+ 
+     <property name="jobDataAsMap">
+	    <map>
+	      <entry key="trafficEventHistoryTask" value-ref="trafficEventHistoryTask" />
+	     </map>
+      </property>
+   </bean>
+   <bean name="travelRouteHistoryJob"
+	   class="org.springframework.scheduling.quartz.JobDetailBean">
+ 
+     <property name="jobClass" value="edu.buffalo.csse.its.batchjobs.TravelRouteHistoryJob" />
+ 
+     <property name="jobDataAsMap">
+	    <map>
+	      <entry key="travelRouteHistoryTask" value-ref="travelRouteHistoryTask" />
+	     </map>
+      </property>
+   </bean>
+ 
+   <!-- Scheduler -->
+   <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+ 
+	<property name="triggers">
+	    <list> 
+	     
+		   <!-- Trigger1: INCIDENT_LOG using CronTrigger -->  
+		   <bean id="jobDetailTrigger1" class="org.springframework.scheduling.quartz.CronTriggerBean">  
+			    <!-- job class -->  
+			    <property name="jobDetail" ref="incidentLogJob" />
+			 
+			    <!-- job schedule: every 5 minutes: CHANGE THIS -->  
+			    <property name="cronExpression" value="0/45 * * * * ?" />
+		   </bean>  
+		   
+		   <!-- Trigger2: BCD_EVENT_HISTORY using CronTrigger -->  
+		   <bean id="jobDetailTrigger2" class="org.springframework.scheduling.quartz.CronTriggerBean">  
+			    <!-- job class -->  
+			    <property name="jobDetail" ref="bcdEventHistoryJob" />
+			 
+			    <!-- job schedule: every 5 minutes: CHANGE THIS -->  
+			    <property name="cronExpression" value="0/35 * * * * ?" />  
+		   </bean> 
+		   
+		    <!-- Trigger3: CMS_HISTORY using CronTrigger -->  
+		   <bean id="jobDetailTrigger3" class="org.springframework.scheduling.quartz.CronTriggerBean">  
+			    <!-- job class -->  
+			    <property name="jobDetail" ref="cmsHistoryJob" />
+			 
+			    <!-- job schedule: every 5 minutes: CHANGE THIS -->  
+			    <property name="cronExpression" value="0/50 * * * * ?" />  
+		   </bean> 
+		   
+		    <!-- Trigger4: DEVICE_HISTORY using CronTrigger -->  
+		   <bean id="jobDetailTrigger4" class="org.springframework.scheduling.quartz.CronTriggerBean">  
+			    <!-- job class -->  
+			    <property name="jobDetail" ref="deviceHistoryJob" />
+			 
+			    <!-- job schedule: every 5 minutes: CHANGE THIS -->  
+			    <property name="cronExpression" value="0/40 * * * * ?" />  
+		   </bean>
+		   
+		    <!-- Trigger5: EXTERNAL_AGENCY_HISTORY using CronTrigger -->  
+		   <bean id="jobDetailTrigger5" class="org.springframework.scheduling.quartz.CronTriggerBean">  
+			    <!-- job class -->  
+			    <property name="jobDetail" ref="externalAgencyHistoryJob" />
+			 
+			    <!-- job schedule: every 5 minutes: CHANGE THIS -->  
+			    <property name="cronExpression" value="0/31 * * * * ?" />  
+		   </bean>
+		   
+		   <!-- Trigger6: TRAFFIC_EVENT_HISTORY using CronTrigger -->  
+		   <bean id="jobDetailTrigger6" class="org.springframework.scheduling.quartz.CronTriggerBean">  
+			    <!-- job class -->  
+			    <property name="jobDetail" ref="trafficEventHistoryJob" />
+			 
+			    <!-- job schedule: every 5 minutes: CHANGE THIS -->  
+			    <property name="cronExpression" value="0/59 * * * * ?" />  
+		   </bean>
+		   
+		   <!-- Trigger7: TRAFFIC_ROUTE_HISTORY using CronTrigger -->  
+		   <bean id="jobDetailTrigger7" class="org.springframework.scheduling.quartz.CronTriggerBean">  
+			    <!-- job class -->  
+			    <property name="jobDetail" ref="travelRouteHistoryJob" />
+			 
+			    <!-- job schedule: every 5 minutes: CHANGE THIS -->  
+			    <property name="cronExpression" value="0/52 * * * * ?" />  
+		   </bean>
+		   
+	  </list>
+	</property>
+   </bean>
+	
+</beans>

@@ -1,0 +1,552 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0231)http://localhost:8081/geoserver/wms -->
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<TITLE>Intelligent Transportation System - CSSE, University at
+Buffalo, SUNY</TITLE>
+<META content="text/html; charset=windows-1252"
+	http-equiv="Content-Type">
+<!-- Import OL CSS, auto import does not work with our minified OL.js build -->
+<LINK rel="stylesheet" type="text/css" href="map_files/style.css">
+<!-- Basic CSS definitions -->
+<STYLE type="text/css">
+/* General settings */
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+
+/* Toolbar styles */
+#toolbar {
+	position: relative;
+	padding-bottom: 0.5em;
+	display: none;
+}
+
+#toolbar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#toolbar ul li {
+	float: left;
+	padding-right: 1em;
+	padding-bottom: 0.5em;
+}
+
+#toolbar ul li a {
+	font-weight: bold;
+	font-size: smaller;
+	vertical-align: middle;
+	color: black;
+	text-decoration: none;
+}
+
+#toolbar ul li a:hover {
+	text-decoration: underline;
+}
+
+#toolbar ul li * {
+	vertical-align: middle;
+}
+
+/* The map and the location bar */
+#map {
+	clear: both;
+	position: relative;
+	width: 512px;
+	height: 462px;
+	border: 1px solid black;
+}
+
+#wrapper {
+	width: 512px;
+}
+
+#location {
+	float: right;
+}
+
+#options {
+	position: absolute;
+	left: 13px;
+	top: 7px;
+	z-index: 3000;
+}
+
+/* Styles used by the default GetFeatureInfo output, added to make IE happy */
+table.featureInfo,table.featureInfo td,table.featureInfo th {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+	padding: .2em .1em;
+}
+
+table.featureInfo th {
+	padding: .2em .2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: #eee;
+}
+
+table.featureInfo td {
+	background: #fff;
+}
+
+table.featureInfo tr.odd td {
+	background: #eee;
+}
+
+table.featureInfo caption {
+	text-align: left;
+	font-size: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: .2em .2em;
+}
+</STYLE>
+<!-- Import OpenLayers, reduced, wms read only version -->
+<SCRIPT type="text/javascript" src="map_files/OpenLayers.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" defer="defer">
+	var map;
+	var untiled;
+	var tiled;
+	var pureCoverage = false;
+	// pink tile avoidance
+	OpenLayers.IMAGE_RELOAD_ATTEMPTS = 5;
+	// make OL compute scale according to WMS spec
+	OpenLayers.DOTS_PER_INCH = 25.4 / 0.28;
+
+	function init() {
+		// if this is just a coverage or a group of them, disable a few items,
+		// and default to jpeg format
+		format = 'image/png';
+		if (pureCoverage) {
+			document.getElementById('filterType').disabled = true;
+			document.getElementById('filter').disabled = true;
+			document.getElementById('antialiasSelector').disabled = true;
+			document.getElementById('updateFilterButton').disabled = true;
+			document.getElementById('resetFilterButton').disabled = true;
+			document.getElementById('jpeg').selected = true;
+			format = "image/jpeg";
+		}
+
+		var bounds = new OpenLayers.Bounds(156593.791, 4735323.692, 230710.135,
+				4802306.95);
+		var options = {
+			controls : [],
+			maxExtent : bounds,
+			maxResolution : 289.51696875000005,
+			projection : "EPSG:2004",
+			units : 'm'
+		};
+		map = new OpenLayers.Map('map', options);
+
+		// setup tiled layer
+		tiled = new OpenLayers.Layer.WMS("Geoserver layers - Tiled",
+				"http://localhost:8081/geoserver/wms", {
+					layers : 'Erie Country Links Group',
+					styles : '',
+					height : '462',
+					width : '512',
+					srs : 'EPSG:2004',
+					format : format,
+					tiled : 'true',
+					tilesOrigin : map.maxExtent.left + ','
+							+ map.maxExtent.bottom
+				}, {
+					buffer : 0,
+					displayOutsideMaxExtent : true
+				});
+
+		// setup single tiled layer
+		untiled = new OpenLayers.Layer.WMS("Geoserver layers - Untiled",
+				"http://localhost:8081/geoserver/wms", {
+					layers : 'Erie Country Links Group',
+					styles : '',
+					height : '462',
+					width : '512',
+					srs : 'EPSG:2004',
+					format : format
+				}, {
+					singleTile : true,
+					ratio : 1
+				});
+
+		map.addLayers([ untiled, tiled ]);
+
+		// build up all controls            
+		map.addControl(new OpenLayers.Control.PanZoomBar({
+			position : new OpenLayers.Pixel(2, 15)
+		}));
+		map.addControl(new OpenLayers.Control.Navigation());
+		map.addControl(new OpenLayers.Control.Scale($('scale')));
+		map.addControl(new OpenLayers.Control.MousePosition({
+			element : $('location')
+		}));
+		map.zoomToExtent(bounds);
+
+		// wire up the option button
+		var options = document.getElementById("options");
+		options.onclick = toggleControlPanel;
+
+		// support GetFeatureInfo
+		map.events
+				.register(
+						'click',
+						map,
+						function(e) {
+							document.getElementById('link_info').innerHTML = "Loading... please wait...";
+							var params = {
+								REQUEST : "GetFeatureInfo",
+								EXCEPTIONS : "application/vnd.ogc.se_xml",
+								BBOX : map.getExtent().toBBOX(),
+								X : e.xy.x,
+								Y : e.xy.y,
+								INFO_FORMAT : 'text/html',
+								QUERY_LAYERS : map.layers[0].params.LAYERS,
+								FEATURE_COUNT : 50,
+								Layers : 'Erie Country Links Group',
+								Styles : '',
+								Srs : 'EPSG:2004',
+								WIDTH : map.size.w,
+								HEIGHT : map.size.h,
+								format : format
+							};
+							OpenLayers.loadURL(
+									"http://localhost:8081/geoserver/wms",
+									params, this, setHTML, setHTML);
+							OpenLayers.Event.stop(e);
+						});
+	}
+
+	// sets the HTML provided into the nodelist element
+	function setHTML(response) {
+		document.getElementById('link_info').innerHTML = response.responseText;
+	};
+
+	// shows/hide the control panel
+	function toggleControlPanel(event) {
+		var toolbar = document.getElementById("toolbar");
+		if (toolbar.style.display == "none") {
+			toolbar.style.display = "block";
+		} else {
+			toolbar.style.display = "none";
+		}
+		event.stopPropagation();
+		map.updateSize()
+	}
+
+	// Tiling mode, can be 'tiled' or 'untiled'            
+	function setTileMode(tilingMode) {
+		if (tilingMode == 'tiled') {
+			untiled.setVisibility(false);
+			tiled.setVisibility(true);
+			map.setBaseLayer(tiled);
+		} else {
+			untiled.setVisibility(true);
+			tiled.setVisibility(false);
+			map.setBaseLayer(untiled);
+		}
+	}
+
+	// changes the current tile format
+	function setImageFormat(mime) {
+		// we may be switching format on setup
+		if (tiled == null)
+			return;
+
+		tiled.mergeNewParams({
+			format : mime
+		});
+		untiled.mergeNewParams({
+			format : mime
+		});
+		/*
+		var paletteSelector = document.getElementById('paletteSelector')
+		if (mime == 'image/jpeg') {
+		    paletteSelector.selectedIndex = 0;
+		    setPalette('');
+		    paletteSelector.disabled = true;
+		}
+		else {
+		    paletteSelector.disabled = false;
+		}
+		 */
+	}
+
+	// sets the chosen style
+	function setStyle(style) {
+		// we may be switching style on setup
+		if (tiled == null)
+			return;
+
+		tiled.mergeNewParams({
+			styles : style
+		});
+		untiled.mergeNewParams({
+			styles : style
+		});
+	}
+
+	function setAntialiasMode(mode) {
+		tiled.mergeNewParams({
+			format_options : 'antialias:' + mode
+		});
+		untiled.mergeNewParams({
+			format_options : 'antialias:' + mode
+		});
+	}
+
+	function setPalette(mode) {
+		if (mode == '') {
+			tiled.mergeNewParams({
+				palette : null
+			});
+			untiled.mergeNewParams({
+				palette : null
+			});
+		} else {
+			tiled.mergeNewParams({
+				palette : mode
+			});
+			untiled.mergeNewParams({
+				palette : mode
+			});
+		}
+	}
+
+	function setWidth(size) {
+		var mapDiv = document.getElementById('map');
+		var wrapper = document.getElementById('wrapper');
+
+		if (size == "auto") {
+			// reset back to the default value
+			mapDiv.style.width = null;
+			wrapper.style.width = null;
+		} else {
+			mapDiv.style.width = size + "px";
+			wrapper.style.width = size + "px";
+		}
+		// notify OL that we changed the size of the map div
+		map.updateSize();
+	}
+
+	function setHeight(size) {
+		var mapDiv = document.getElementById('map');
+
+		if (size == "auto") {
+			// reset back to the default value
+			mapDiv.style.height = null;
+		} else {
+			mapDiv.style.height = size + "px";
+		}
+		// notify OL that we changed the size of the map div
+		map.updateSize();
+	}
+
+	function updateFilter() {
+		if (pureCoverage)
+			return;
+
+		var filterType = document.getElementById('filterType').value;
+		var filter = document.getElementById('filter').value;
+
+		// by default, reset all filters                
+		var filterParams = {
+			filter : null,
+			cql_filter : null,
+			featureId : null
+		};
+		if (OpenLayers.String.trim(filter) != "") {
+			if (filterType == "cql")
+				filterParams["cql_filter"] = filter;
+			if (filterType == "ogc")
+				filterParams["filter"] = filter;
+			if (filterType == "fid")
+				filterParams["featureId"] = filter;
+		}
+		// merge the new filter definitions
+		mergeNewParams(filterParams);
+	}
+
+	function resetFilter() {
+		if (pureCoverage)
+			return;
+
+		document.getElementById('filter').value = "";
+		updateFilter();
+	}
+
+	function mergeNewParams(params) {
+		tiled.mergeNewParams(params);
+		untiled.mergeNewParams(params);
+	}
+</SCRIPT>
+<script type="text/javascript">
+	function validate() {
+		//alert("1");
+		var str = "";
+		str = "?link=1243"
+		var url = "process.jsp?stDate=A&enDate=B&links=1234,4567,3367";
+		document.search_form.action = "process.jsp";
+		document.search_form.method = "POST";
+		document.search_form.target = "blank";
+		document.search_form.submit();
+		//window.open(url, "Intelligent Transportation System-CSSE, University at Buffalo - SUNY", "menubar=1,resizable=1,width=800,height=600");
+	}
+</script>
+
+<META name="GENERATOR" content="MSHTML 9.00.7930.16406">
+</HEAD>
+<BODY onload="init()">
+<form method="POST" name="search_form">
+
+<DIV style="display: none;" id="toolbar">
+<UL>
+	<LI><A>Tiling:</A><SELECT id="tilingModeSelector"
+		onchange="setTileMode(value)">
+		<OPTION value="untiled">Single tile</OPTION>
+		<OPTION value="tiled">Tiled</OPTION>
+	</SELECT></LI>
+	<LI><A>Antialias:</A><SELECT id="antialiasSelector"
+		onchange="setAntialiasMode(value)">
+		<OPTION value="full">Full</OPTION>
+		<OPTION value="text">Text only</OPTION>
+		<OPTION value="none">Disabled</OPTION>
+	</SELECT></LI>
+	<LI><A>Format:</A><SELECT id="imageFormatSelector"
+		onchange="setImageFormat(value)">
+		<OPTION value="image/png">PNG 24bit</OPTION>
+		<OPTION value="image/png8">PNG 8bit</OPTION>
+		<OPTION value="image/gif">GIF</OPTION>
+		<OPTION id="jpeg" value="image/jpeg">JPEG</OPTION>
+	</SELECT></LI>
+	<LI><A>Styles:</A><SELECT id="imageFormatSelector"
+		onchange="setStyle(value)">
+		<OPTION value="">Default</OPTION>
+	</SELECT></LI>
+	<!-- Commented out for the moment, some code needs to be extended in 
+                     order to list the available palettes
+                <li>
+                    <a>Palette:</a>
+                    <select id="paletteSelector" onchange="setPalette(value)">
+                        <option value="">None</option>
+                        <option value="safe">Web safe</option>
+                    </select>
+                </li>
+                -->
+	<LI><A>Width/Height:</A><SELECT id="widthSelector"
+		onchange="setWidth(value)">
+		<OPTION value="auto">Auto</OPTION>
+		<OPTION value="600">600</OPTION>
+		<OPTION value="750">750</OPTION>
+		<OPTION value="950">950</OPTION>
+		<OPTION value="1000">1000</OPTION>
+		<OPTION value="1200">1200</OPTION>
+		<OPTION value="1400">1400</OPTION>
+		<OPTION value="1600">1600</OPTION>
+		<OPTION value="1900">1900</OPTION>
+	</SELECT><SELECT id="heigthSelector" onchange="setHeight(value)">
+		<OPTION value="auto">Auto</OPTION>
+		<OPTION value="300">300</OPTION>
+		<OPTION value="400">400</OPTION>
+		<OPTION value="500">500</OPTION>
+		<OPTION value="600">600</OPTION>
+		<OPTION value="700">700</OPTION>
+		<OPTION value="800">800</OPTION>
+		<OPTION value="900">900</OPTION>
+		<OPTION value="1000">1000</OPTION>
+	</SELECT></LI>
+	<LI><A>Filter:</A><SELECT id="filterType">
+		<OPTION value="cql">CQL</OPTION>
+		<OPTION value="ogc">OGC</OPTION>
+		<OPTION value="fid">FeatureID</OPTION>
+	</SELECT><INPUT id="filter" size="80" type="text"><IMG
+		id="updateFilterButton" title="Apply filter" onclick="updateFilter()"
+		src="map_files/east-mini.png"><IMG id="resetFilterButton"
+		title="Reset filter" onclick="resetFilter()"
+		src="map_files/cancel.png"></LI>
+</UL>
+</DIV>
+<DIV id=map><IMG id=options title="Toggle options toolbar"
+	src="map_files/options.png"></DIV>
+<div
+	style="position: absolute; width: 645px; height: 464px; z-index: 1; left: 526px; top: 15px; border-style: solid; border-width: 1px; padding-left: 4px; padding-right: 4px; padding-top: 1px; padding-bottom: 1px"
+	id="layer2">
+
+<p><b><font size="5" face="Calibri">Selected
+Route/Station on the Map</font></b></p>
+
+<div id="link_info"></div>
+
+<p><b><font size="4" face="Calibri">Input Parameters</font></b></p>
+<p><font face="Calibri">Start Date (mm/dd/yyyy) 
+	<font size="3"> 
+		<input type="text" name="stDate" size="14" value="06/01/2006">
+	</font>&nbsp;
+	End Date (mm/dd/yyyy) 
+	<font size="3"> 
+		<input type="text" name="enDate" size="14" value="09/30/2006">
+	</font>
+</font></p>
+<fieldset style="padding: 2">
+	<legend> <font	face="Calibri">Day of Week</font> </legend> 
+	<font face="Calibri">
+		<font size="3"><input type="checkbox" name="DOW" value="1"></font>Monday
+		<font size="3"> <input type="checkbox" name="DOW" value="2"></font>Tuesday
+		<font size="3"> <input type="checkbox" name="DOW" value="3"></font>Wednesday
+		<font size="3"> <input type="checkbox" name="DOW" value="4"></font>Thursday
+		<font size="3"> <input type="checkbox" name="DOW" value="5"></font>Friday
+		<font size="3"> <input type="checkbox" name="DOW" value="6"></font>Saturday
+		<font size="3"> <input type="checkbox" name="DOW" value="7"></font>Sunday
+	</font></fieldset>
+</font>
+<p>
+	<font face="Calibri">Start Time (hh:mm:ss) 
+		<font size="3"><input type="text" name="stTime" size="14"></font>
+		&nbsp; End Time(hh:mm:ss) 
+		<font size="3"> <input type="text" name="enTime" size="14"></font>
+	</font></p>
+<p>
+	<font face="Calibri">Time Aggregate 
+		<font size="3">
+			<select size="1" name="D1" disabled="disabled">
+				<option selected>10 Minutes</option>
+			</select> 
+		</font> 
+	</font>
+</p>
+<fieldset style="padding: 2">
+	<legend>
+		<font face="Calibri">Type of Data to View</font>
+	</legend> 
+	<font face="Calibri">
+		<font size="3"> <input type="checkbox" name="Inc" value="ON"></font>Incident
+		<font size="3"> <input type="checkbox" name="Help" value="ON"></font>Incident Help 
+		<font size="3"> <input type="checkbox" name="Traffic" value="ON"></font>Traffic
+	</font>
+</fieldset>
+</font>
+<p>
+	<font face="Calibri"><font size="3"> 
+		<input type="button" value="Show Data" name="btnShow" onclick="validate();">
+	</font>
+	<font size="3"> <input type="button" value="Reset Fields" name="btnReset"></font></font>
+</p>
+
+<p>&nbsp;
+</div>
+
+<DIV id="wrapper">
+<DIV id="location">location</DIV>
+<DIV id="scale"></DIV>
+</DIV>
+<DIV id="nodelist"><EM>Click on the map to get feature info</EM></DIV>
+</form>
+</BODY>
+</HTML>

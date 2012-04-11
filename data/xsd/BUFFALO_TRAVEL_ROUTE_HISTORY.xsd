@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="DATAPACKET">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="METADATA"/>
+        <xs:element ref="ROWDATA"/>
+      </xs:sequence>
+      <xs:attribute name="Version" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="METADATA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="FIELDS"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FIELDS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="FIELD"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FIELD">
+    <xs:complexType>
+      <xs:attribute name="DisplayLabel" use="required" type="xs:NCName"/>
+      <xs:attribute name="FieldClass" use="required" type="xs:NCName"/>
+      <xs:attribute name="FieldName" use="required" type="xs:NCName"/>
+      <xs:attribute name="FieldType" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ROWDATA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ROW"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ROW">
+    <xs:complexType>
+      <xs:attribute name="OPERATOR_MODE" use="required" type="xs:NCName"/>
+      <xs:attribute name="ROUTENAME" use="required"/>
+      <xs:attribute name="TRAVEL_TIME" use="required"/>
+      <xs:attribute name="UPDATETIME" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 2, 2011 3:02:02 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="edu.buffalo.csse.its.data.ExternalAgencyHistory" table="EXTERNAL_AGENCY_HISTORY">
+        <id name="seq_no" type="long">
+            <generator class="native" />
+        </id>
+        <property name="ateid" type="int">
+            <column name="ateid" />
+        </property>
+        <property name="detectionTime" type="long">
+            <column name="DETECTION_TIME" />
+        </property>
+        <property name="agency" type="java.lang.String">
+            <column name="AGENCY" />
+        </property>
+        <property name="notificationTime" type="long">
+            <column name="NOTIFICATION_TIME" />
+        </property>
+        <property name="arrivalTime" type="long">
+            <column name="ARRIVAL_TIME" />
+        </property>
+        <property name="departureTime" type="long">
+            <column name="DEPARTURE_TIME" />
+        </property>
+        <property name="universalUpdateTime" type="long">
+            <column name="UNIVERSAL_UPDATE_TIME" />
+        </property>
+        <property name="localUpdateTime" type="long">
+            <column name="LOCAL_UPDATE_TIME" />
+        </property>
+        <property name="lastModifiedTime" type="java.sql.Timestamp">
+            <column name="LASTMODIFIEDTIME" />
+        </property>
+        <property name="lastUser" type="java.lang.String">
+            <column name="LASTUSER" />
+        </property>
+    </class>
+</hibernate-mapping>

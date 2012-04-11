@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 2, 2011 4:47:38 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="edu.buffalo.csse.its.data.TrafficEventHistory" table="TRAFFIC_EVENT_HISTORY">
+        <id name="seq_no" type="long">
+            <generator class="native" />
+        </id>
+        <property name="universalUpdateTime" type="long">
+            <column name="UNIVERSAL_UPDATE_TIME" />
+        </property>
+        <property name="localUpdateTime" type="long">
+            <column name="LOCAL_UPDATE_TIME" />
+        </property>
+        <property name="action" type="java.lang.String">
+            <column name="ACTION" />
+        </property>
+        <property name="tetype" type="java.lang.String">
+            <column name="TETYPE" />
+        </property>
+        <property name="state" type="java.lang.String">
+            <column name="STATE" />
+        </property>
+        <property name="owner" type="java.lang.String">
+            <column name="OWNER" />
+        </property>
+        <property name="cause" type="java.lang.String">
+            <column name="CAUSE" />
+        </property>
+        <property name="subcause" type="java.lang.String">
+            <column name="SUBCAUSE" />
+        </property>
+        <property name="severity" type="int">
+            <column name="SEVERITY" />
+        </property>
+        <property name="district" type="java.lang.String">
+            <column name="DISTRICT" />
+        </property>
+        <property name="town" type="java.lang.String">
+            <column name="TOWN" />
+        </property>
+        <property name="longdesc" type="java.lang.String">
+            <column name="LONG_DESC" />
+        </property>
+        <property name="vehicles_involved" type="java.lang.String">
+            <column name="VEHICLES_INVOLVED" />
+        </property>
+        <property name="head_long_road_name" type="java.lang.String">
+            <column name="HEAD_LONG_ROAD_NAME" />
+        </property>
+        <property name="head_loc_string" type="java.lang.String">
+            <column name="HEAD_LOC_STRING" />
+        </property>
+        <property name="tail_long_road_name" type="java.lang.String">
+            <column name="TAIL_LONG_ROAD_NAME" />
+        </property>
+        <property name="tail_loc_string" type="java.lang.String">
+            <column name="TAIL_LOC_STRING" />
+        </property>
+        <property name="distance_covered" type="double">
+            <column name="DISTANCE_COVERED" />
+        </property>
+        <property name="detectionTime" type="long">
+            <column name="DETECTION_TIME" />
+        </property>
+        <property name="confirmationTime" type="long">
+            <column name="CONFIRMATION_TIME" />
+        </property>
+        <property name="notificationTime" type="long">
+            <column name="NOTIFICATION_TIME" />
+        </property>
+        <property name="estimatedDuration" type="java.lang.String">
+            <column name="ESTIMATED_DURATION" />
+        </property>
+        <property name="confirmationSource" type="java.lang.String">
+            <column name="CONFIRMATION_SOURCE" />
+        </property>
+        <property name="source" type="java.lang.String">
+            <column name="SOURCE" />
+        </property>
+        <property name="headvdsid" type="int">
+            <column name="HEADVDSID" />
+        </property>
+        <property name="tailvdsid" type="int">
+            <column name="TAILVDSID" />
+        </property>
+        <property name="queueid" type="int">
+            <column name="QUEUEID" />
+        </property>
+        <property name="incident_id" type="int">
+            <column name="INCIDENT_ID" />
+        </property>
+        <property name="blocked_lane" type="java.lang.String">
+            <column name="BLOCKED_LANE" />
+        </property>
+        <property name="left_shoulder" type="java.lang.String">
+            <column name="LEFT_SHOULDER" />
+        </property>
+        <property name="right_shoulder" type="java.lang.String">
+            <column name="RIGHT_SHOULDER" />
+        </property>
+        <property name="full_closure" type="java.lang.String">
+            <column name="FULL_CLOSURE" />
+        </property>
+        <property name="secondary" type="java.lang.String">
+            <column name="SECONDARY" />
+        </property>
+        <property name="injuries" type="java.lang.String">
+            <column name="INJURIES" />
+        </property>
+        <property name="occurence_time" type="long">
+            <column name="OCCURENCE_TIME" />
+        </property>
+        <property name="initial_notification_time" type="long">
+            <column name="INITIAL_NOTIFICATION_TIME" />
+        </property>
+        <property name="verification_time" type="long">
+            <column name="VERIFICATION_TIME" />
+        </property>
+        <property name="normal_traffic_flow_time" type="long">
+            <column name="NORMAL_TRAFFIC_FLOW_TIME" />
+        </property>
+        <property name="wrecker_clears_lanes" type="java.lang.String">
+            <column name="WRECKER_CLEARS_LANES" />
+        </property>
+        <property name="areas" type="java.lang.String">
+            <column name="AREAS" />
+        </property>
+        <property name="transittype" type="java.lang.String">
+            <column name="TRANSIT_TYPE" />
+        </property>
+        <property name="lastModifiedTime" type="java.sql.Timestamp">
+            <column name="LASTMODIFIEDTIME" />
+        </property>
+        <property name="lastUser" type="java.lang.String">
+            <column name="LASTUSER" />
+        </property>
+    </class>
+</hibernate-mapping>

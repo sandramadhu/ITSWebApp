@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="DATAPACKET">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="METADATA"/>
+        <xs:element ref="ROWDATA"/>
+      </xs:sequence>
+      <xs:attribute name="Version" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="METADATA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="FIELDS"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FIELDS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="FIELD"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FIELD">
+    <xs:complexType>
+      <xs:attribute name="DisplayLabel" use="required" type="xs:NCName"/>
+      <xs:attribute name="FieldClass" use="required" type="xs:NCName"/>
+      <xs:attribute name="FieldName" use="required" type="xs:NCName"/>
+      <xs:attribute name="FieldType" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ROWDATA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="ROW"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ROW">
+    <xs:complexType>
+      <xs:attribute name="DEVICEID" use="required" type="xs:decimal"/>
+      <xs:attribute name="DEVICETYPE" use="required" type="xs:NCName"/>
+      <xs:attribute name="LOCALUPDATETIME" use="required"/>
+      <xs:attribute name="NUMBEROFPHASES" use="required" type="xs:decimal"/>
+      <xs:attribute name="PHASE1LINE1TEXT" use="required"/>
+      <xs:attribute name="PHASE1LINE2TEXT" use="required"/>
+      <xs:attribute name="PHASE1LINE3TEXT" use="required"/>
+      <xs:attribute name="PHASE2LINE1TEXT" use="required"/>
+      <xs:attribute name="PHASE2LINE2TEXT" use="required"/>
+      <xs:attribute name="PHASE2LINE3TEXT" use="required"/>
+      <xs:attribute name="STATICTEXT1" use="required" type="xs:NCName"/>
+      <xs:attribute name="STATICTEXT2" use="required"/>
+      <xs:attribute name="STATICTEXT3" use="required"/>
+      <xs:attribute name="UNIVERSALUPDATETIME" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

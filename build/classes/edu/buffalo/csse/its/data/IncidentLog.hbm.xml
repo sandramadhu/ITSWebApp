@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 22, 2010 4:54:04 PM by Hibernate Tools 3.3.0.GA -->
+<hibernate-mapping>
+    <class name="edu.buffalo.csse.its.data.IncidentLog" table="INCIDENTLOG">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="incident_date" type="long">
+            <column name="INCIDENT_DATE" />
+        </property>
+        <property name="incident_time" type="long">
+            <column name="INCIDENT_TIME" />
+        </property>
+        <property name="dow" type="int">
+            <column name="DOW" />
+        </property>
+        <property name="linkId" type="java.lang.String">
+            <column name="LINKID" />
+        </property>
+        <property name="detection_time" type="long">
+            <column name="DETECTION_TIME" />
+        </property>
+        <property name="verification_time" type="long">
+            <column name="VERIFICATION_TIME" />
+        </property>
+        <property name="scene_arrival_time" type="long">
+            <column name="SCENE_ARRIVAL_TIME" />
+        </property>
+        <property name="closed_time" type="long">
+            <column name="CLOSED_TIME" />
+        </property>
+        <property name="operators" type="java.lang.String">
+            <column name="OPERATORS" />
+        </property>
+        <property name="operator_response" type="java.lang.String">
+            <column name="OPERATOR_RESPONSE" />
+        </property>
+        <property name="caller_org" type="java.lang.String">
+            <column name="CALLER_ORG" />
+        </property>
+        <property name="caller_phone" type="java.lang.String">
+            <column name="CALLER_PHONE" />
+        </property>
+        <property name="caller_name" type="java.lang.String">
+            <column name="CALLER_NAME" />
+        </property>
+        <property name="event" type="java.lang.String">
+            <column name="EVENT" />
+        </property>
+        <property name="owning_agency" type="java.lang.String">
+            <column name="OWNING_AGENCY" />
+        </property>
+        <property name="scene_arrival_time_span" type="int">
+            <column name="SCENE_ARRIVAL_TIME_SPAN" />
+        </property>
+        <property name="scene_arr_time_spanmod" type="int">
+            <column name="SCENE_ARR_TIME_SPANMOD" />
+        </property>
+        <property name="Scene_Arr_Time_SpanMax" type="int">
+            <column name="SCENE_ARR_TIME_SPANMAX" />
+        </property>
+        <property name="lane_block_clear_time" type="long">
+            <column name="LANE_BLOCK_CLEAR_TIME" />
+        </property>
+        <property name="Lane_Block_Clear_Time_Span" type="int">
+            <column name="LANE_BLOCK_CLEAR_TIME_SPAN" />
+        </property>
+        <property name="Lane_Block_Clear_Time_Span_Mod" type="int">
+            <column name="LANE_BLOCK_CLEAR_TIME_SPAN_MOD" />
+        </property>
+        <property name="Lan_Block_Clear_Time_Span_Max" type="int">
+            <column name="LAN_BLOCK_CLEAR_TIME_SPAN_MAX" />
+        </property>
+        <property name="Clear_Time" type="long">
+            <column name="CLEAR_TIME" />
+        </property>
+        <property name="Scene_Depart_Time" type="long">
+            <column name="SCENE_DEPART_TIME" />
+        </property>
+        <property name="Ret_Norm_Time" type="long">
+            <column name="RET_NORM_TIME" />
+        </property>
+        <property name="Ret_Norm_Time_Span" type="int">
+            <column name="RET_NORM_TIME_SPAN" />
+        </property>
+        <property name="Ret_Norm_Time_Span_Mod" type="int">
+            <column name="RET_NORM_TIME_SPAN_MOD" />
+        </property>
+        <property name="Ret_Norm_Time_Span_Max" type="int">
+            <column name="RET_NORM_TIME_SPAN_MAX" />
+        </property>
+        <property name="Total_Clear_Time" type="int">
+            <column name="TOTAL_CLEAR_TIME" />
+        </property>
+        <property name="DMS" type="int">
+            <column name="DMS" />
+        </property>
+        <property name="DMS_Act_Time" type="long">
+            <column name="DMS_ACT_TIME" />
+        </property>
+        <property name="DMS_DeAct_Time" type="long">
+            <column name="DMS_DEACT_TIME" />
+        </property>
+        <property name="PVMS" type="int">
+            <column name="PVMS" />
+        </property>
+        <property name="PVMS_Act_Time" type="long">
+            <column name="PVMS_ACT_TIME" />
+        </property>
+        <property name="PVMS_DeAct_Time" type="long">
+            <column name="PVMS_DEACT_TIME" />
+        </property>
+        <property name="HAR" type="int">
+            <column name="HAR" />
+        </property>
+        <property name="HAR_Act_Time" type="long">
+            <column name="HAR_ACT_TIME" />
+        </property>
+        <property name="HAR_DeAct_Time" type="long">
+            <column name="HAR_DEACT_TIME" />
+        </property>
+        <property name="CARS_active" type="int">
+            <column name="CARS_ACTIVE" />
+        </property>
+        <property name="CARS_deactive" type="int">
+            <column name="CARS_DEACTIVE" />
+        </property>
+        <property name="CARS_Man_Act" type="int">
+            <column name="CARS_MAN_ACT" />
+        </property>
+        <property name="CARS_Man_DeAct" type="int">
+            <column name="CARS_MAN_DEACT" />
+        </property>
+        <property name="Website_added_incident" type="int">
+            <column name="WEBSITE_ADDED_INCIDENT" />
+        </property>
+        <property name="Website_deleted_incident" type="int">
+            <column name="WEBSITE_DELETED_INCIDENT" />
+        </property>
+        <property name="Lane_Blocked" type="int">
+            <column name="LANE_BLOCKED" />
+        </property>
+        <property name="Mod_Time" type="long">
+            <column name="MOD_TIME" />
+        </property>
+        <property name="Full_Road_Closure" type="int">
+            <column name="FULL_ROAD_CLOSURE" />
+        </property>
+        <property name="DMS_Active_List" type="java.lang.String">
+            <column name="DMS_ACTIVE_LIST" />
+        </property>
+        <property name="Trans_Alert_Act" type="int">
+            <column name="TRANS_ALERT_ACT" />
+        </property>
+        <property name="Trans_Alert_DeAct" type="int">
+            <column name="TRANS_ALERT_DEACT" />
+        </property>
+        <property name="TCWS" type="int">
+            <column name="TCWS" />
+        </property>
+        <property name="TCWS_Act_Time" type="long">
+            <column name="TCWS_ACT_TIME" />
+        </property>
+        <property name="TCWS_DeAct_Time" type="long">
+            <column name="TCWS_DEACT_TIME" />
+        </property>
+        <property name="Skyway" type="int">
+            <column name="SKYWAY" />
+        </property>
+        <property name="Skyway_Act_Time" type="long">
+            <column name="SKYWAY_ACT_TIME" />
+        </property>
+        <property name="Skyway_DeAct_Time" type="long">
+            <column name="SKYWAY_DEACT_TIME" />
+        </property>
+        <property name="Charms_Event_No_Action" type="int">
+            <column name="CHARMS_EVENT_NO_ACTION" />
+        </property>
+        <property name="HICF_Sent" type="int">
+            <column name="HICF_SENT" />
+        </property>
+        <property name="HAR_Slot" type="int">
+            <column name="HAR_SLOT" />
+        </property>
+        <property name="CRDMS_Act" type="int">
+            <column name="CRDMS_ACT" />
+        </property>
+        <property name="CRDMS_DeAct" type="int">
+            <column name="CRDMS_DEACT" />
+        </property>
+        <property name="CR_Fax_Email_Act" type="int">
+            <column name="CR_FAX_EMAIL_ACT" />
+        </property>
+        <property name="CR_Fax_Email_De_Act" type="int">
+            <column name="CR_FAX_EMAIL_DE_ACT" />
+        </property>
+        <property name="CR_Web_Act" type="int">
+            <column name="CR_WEB_ACT" />
+        </property>
+        <property name="CR_Web_DeAct" type="int">
+            <column name="CR_WEB_DEACT" />
+        </property>
+        <property name="Num_Lanes_Blocked" type="int">
+            <column name="NUM_LANES_BLOCKED" />
+        </property>
+        <property name="HICF_Final_Sent" type="int">
+            <column name="HICF_FINAL_SENT" />
+        </property>
+        <property name="Scene_ATS" type="int">
+            <column name="SCENE_ATS" />
+        </property>
+        <property name="Lane_BCTS" type="int">
+            <column name="LANE_BCTS" />
+        </property>
+        <property name="Ret_NTS" type="int">
+            <column name="RET_NTS" />
+        </property>
+        <property name="Exclude_From_Rep" type="int">
+            <column name="EXCLUDE_FROM_REP" />
+        </property>
+        <property name="Secondary_Incident" type="int">
+            <column name="SECONDARY_INCIDENT" />
+        </property>
+        <property name="Secondary_Incident_Log_Num" type="int">
+            <column name="SECONDARY_INCIDENT_LOG_NUM" />
+        </property>
+        <property name="Inc_Severity" type="int">
+            <column name="INC_SEVERITY" />
+        </property>
+        <property name="Inc_Severity_Mod" type="int">
+            <column name="INC_SEVERITY_MOD" />
+        </property>
+        <property name="Inc_Severity_Maj" type="int">
+            <column name="INC_SEVERITY_MAJ" />
+        </property>
+        <property name="CR_Event_ID" type="java.lang.String">
+            <column name="CR_EVENT_ID" />
+        </property>
+        <property name="closed" type="int">
+            <column name="CLOSED" />
+        </property>
+        <property name="locked" type="int">
+            <column name="LOCKED" />
+        </property>
+        <property name="idKey" type="int">
+            <column name="IDKEY" />
+        </property>
+        <property name="crossStreet" type="java.lang.String">
+            <column name="CROSSSTREET" />
+        </property>
+        <property name="directionDesc" type="java.lang.String">
+            <column name="DIRECTIONDESC" />
+        </property>
+        <property name="route" type="java.lang.String">
+            <column name="ROUTE" />
+        </property>
+        <property name="municipality" type="java.lang.String">
+            <column name="MUNICIPALITY" />
+        </property>
+        <property name="eventDescription" type="java.lang.String">
+            <column name="EVENTDESCRIPTION" />
+        </property>
+        <property name="genEvent" type="java.lang.String">
+            <column name="GENEVENT" />
+        </property>
+        <property name="detectMethod" type="java.lang.String">
+            <column name="DETECTMETHOD" />
+        </property>
+        <property name="lastModifiedTime" type="java.sql.Timestamp">
+            <column name="LASTMODIFIEDTIME" />
+        </property>
+        <property name="lastUser" type="java.lang.String">
+            <column name="LASTUSER" />
+        </property>
+    </class>
+</hibernate-mapping>
